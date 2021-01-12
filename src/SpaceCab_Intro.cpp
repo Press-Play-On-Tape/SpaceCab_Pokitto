@@ -155,8 +155,8 @@ void Game::titleScreen(Level &level, Player &player, Customer &customer) {
     } 
 
 
-    if (PC::buttons.pressed(BTN_C)) {
-        this->state = GameState::Designer_Init;
-    }
+    // if (PC::buttons.pressed(BTN_C)) {
+    //     this->state = GameState::Designer_Init;
+    // }
  
 }

@@ -1,6 +1,6 @@
 #pragma once
 
-#define _SOUNDS
+#define SOUNDS
 #define _DEBUG
 #define _INC_LEVEL_DETAILS
 
