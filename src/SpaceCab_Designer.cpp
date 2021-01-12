@@ -32,17 +32,50 @@ void Game::designer() {
                 
             this->designer_RenderMainMenu();
 
-            if ((PC::buttons.pressed(BTN_DOWN) || PC::buttons.repeat(BTN_DOWN, REPEAT_VAL)) && this->designerScreenVariables.entryCursor < this->designerScreenVariables.entryCount - 1) {
+            // if ((PC::buttons.pressed(BTN_DOWN) || PC::buttons.repeat(BTN_DOWN, REPEAT_VAL)) && this->designerScreenVariables.entryCursor < this->designerScreenVariables.entryCount - 1) {
 
-                this->designerScreenVariables.entryCursor++;
-                this->designer_Move_Vert();
+            //     this->designerScreenVariables.entryCursor++;
+            //     this->designer_Move_Vert();
+
+            // }
+            if (PC::buttons.pressed(BTN_DOWN) || PC::buttons.repeat(BTN_DOWN, REPEAT_VAL)) {
+                
+                if (this->designerScreenVariables.entryCursor < this->designerScreenVariables.entryCount - 1) {
+
+                    this->designerScreenVariables.entryCursor++;
+                    this->designer_Move_Vert();
+
+                }
+                else {
+
+                    this->designerScreenVariables.entryCursor = 0;
+                    this->designer_Move_Vert();
+
+                }
 
             }
 
-            if ((PC::buttons.pressed(BTN_UP) || PC::buttons.repeat(BTN_UP, REPEAT_VAL)) && this->designerScreenVariables.entryCursor > 0) {
+            // if ((PC::buttons.pressed(BTN_UP) || PC::buttons.repeat(BTN_UP, REPEAT_VAL)) && this->designerScreenVariables.entryCursor > 0) {
 
-                this->designerScreenVariables.entryCursor--;
-                this->designer_Move_Vert();
+            //     this->designerScreenVariables.entryCursor--;
+            //     this->designer_Move_Vert();
+
+            // }
+            if (PC::buttons.pressed(BTN_UP) || PC::buttons.repeat(BTN_UP, REPEAT_VAL)) {
+                
+                if (this->designerScreenVariables.entryCursor > 0) {
+
+                    this->designerScreenVariables.entryCursor--;
+                    this->designer_Move_Vert();
+
+                }
+                else {
+
+                    this->designerScreenVariables.entryCursor = this->designerScreenVariables.entryCount - 1;
+                    this->designerScreenVariables.entryTop = this->designerScreenVariables.entryCursor - DESIGNER_ENTRY_COUNT + 1;
+                    this->designer_Move_Vert();
+
+                }
 
             }
 
@@ -445,7 +478,7 @@ void Game::designer() {
 
                 }
                 
-                if ((PC::buttons.pressed(BTN_DOWN) || PC::buttons.repeat(BTN_DOWN, REPEAT_VAL)) && this->level.getGateInterval() > 10) {
+                if ((PC::buttons.pressed(BTN_DOWN) || PC::buttons.repeat(BTN_DOWN, REPEAT_VAL)) && this->level.getGateInterval() > 200) {
 
                     this->level.setGateInterval(this->level.getGateInterval() - 10);
                     
@@ -665,27 +698,83 @@ void Game::designer() {
             if (PC::buttons.pressed(BTN_RIGHT) && this->designerScreenVariables.cursorTile == 16) {
                 this->designerScreenVariables.cursorTile++;
             }
+            // if (PC::buttons.pressed(BTN_RIGHT)) {
+                
+            //     switch (this->designerScreenVariables.cursorTile) {
+
+            //         case 0 ... 15:
+            //             this->designerScreenVariables.cursorTile = 16;
+            //             this->designerScreenVariables.toolTop = 8;
+            //             this->designer_Tools_Move_Vert();
+            //             break;
+
+            //         case 16:
+            //             this->designerScreenVariables.cursorTile = 17;
+            //             this->designerScreenVariables.toolTop = 8;
+            //             this->designer_Tools_Move_Vert();
+            //             break;
+                        
+
+            //     }
+
+            // }
 
             if (PC::buttons.pressed(BTN_DOWN) || PC::buttons.repeat(BTN_DOWN, REPEAT_VAL)) {
                 
-                if (this->designerScreenVariables.cursorTile < 16) {
-                    
-                    this->designerScreenVariables.cursorTile++;
-                    this->designer_Tools_Move_Vert();
+                switch (this->designerScreenVariables.cursorTile) {
+
+                    case 0 ... 15:
+                        this->designerScreenVariables.cursorTile++;
+                        this->designer_Tools_Move_Vert();
+                        break;
+
+                    case 16:
+                        this->designerScreenVariables.cursorTile++;
+                        break;
+
+                    case 17:
+                        this->designerScreenVariables.toolTop = 0;
+                        this->designerScreenVariables.cursorTile = 0;
+                        break;
 
                 }
-                else if (this->designerScreenVariables.cursorTile == 16) {
 
-                    this->designerScreenVariables.cursorTile++;
+                // if (this->designerScreenVariables.cursorTile < 16) {
                     
-                }
+                //     this->designerScreenVariables.cursorTile++;
+                //     this->designer_Tools_Move_Vert();
+
+                // }
+                // else if (this->designerScreenVariables.cursorTile == 16) {
+
+                //     this->designerScreenVariables.cursorTile++;
+                    
+                // }
 
             }
 
-            if ((PC::buttons.pressed(BTN_UP) || PC::buttons.repeat(BTN_UP, REPEAT_VAL)) && this->designerScreenVariables.cursorTile > 0) {
+            // if ((PC::buttons.pressed(BTN_UP) || PC::buttons.repeat(BTN_UP, REPEAT_VAL)) && this->designerScreenVariables.cursorTile > 0) {
 
-                this->designerScreenVariables.cursorTile--;
-                this->designer_Tools_Move_Vert();
+            //     this->designerScreenVariables.cursorTile--;
+            //     this->designer_Tools_Move_Vert();
+
+            // }
+            if ((PC::buttons.pressed(BTN_UP) || PC::buttons.repeat(BTN_UP, REPEAT_VAL))) {
+
+                switch (this->designerScreenVariables.cursorTile > 0) {
+
+                    case 0:
+                        this->designerScreenVariables.toolTop = 9;
+                        this->designerScreenVariables.cursorTile = 17;
+                        this->designer_Tools_Move_Vert();
+                        break;
+
+                    default:
+                        this->designerScreenVariables.cursorTile--;
+                        this->designer_Tools_Move_Vert();
+                        break;
+                        
+                }
 
             }
             

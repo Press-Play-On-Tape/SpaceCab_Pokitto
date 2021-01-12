@@ -12889,6 +12889,9 @@
 		},
 		"/SpaceCab_Pokitto.bin.1.gif": {
 			"sdcard": false
+		},
+		"/SpaceCab_V1.0.1.bin": {
+			"sdcard": false
 		}
 	},
 	"BUILDFlags": {
