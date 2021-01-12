@@ -263,22 +263,34 @@ void Game::designer_DrawLevel(Level &level, bool grey) {
 
             const int16_t tileX = (x * TILE_SIZE / 2);
             const int16_t tileY = (y * TILE_SIZE / 2);
-            const int16_t bitmapX = tileX + (level.getXOffsetDisplay() / 2);
-            const int16_t bitmapY = tileY + (level.getYOffsetDisplay() / 2);
-            
+            const int16_t bitmapX = DESIGNER_LEVEL_OFFSET_X + tileX + this->designerScreenVariables.cursorXOffset;
+            const int16_t bitmapY = DESIGNER_LEVEL_OFFSET_Y + tileY + this->designerScreenVariables.cursorYOffset;
+
+// if (x > 58 && y == 0) {
+//     printf ("X: %i, tileX %i, tileY %i offsetX: %i, offsetY: %i, bitmapX %i, bitmapY %i - ", x, tileX, tileY, this->designerScreenVariables.cursorXOffset, this->designerScreenVariables.cursorYOffset, bitmapX, bitmapY);
+
+//             if (bitmapX < -4 || bitmapX >= SCREEN_WIDTH || bitmapY < -4 || bitmapY >= SCREEN_HEIGHT) {
+//                 printf(" Skip\n");
+//             }
+//             else {
+//                 printf(" Render\n");
+//             }
+
+// }
+
 
             // Do we really need to render the tile?
 
-            if (bitmapX < -8 || bitmapX >= SCREEN_WIDTH * 2 || bitmapY < -8 || bitmapY >= SCREEN_HEIGHT * 2)
+            if (bitmapX < -8 || bitmapX >= SCREEN_WIDTH || bitmapY < -8 || bitmapY >= SCREEN_HEIGHT)
                 continue;
 
             uint8_t tile = level.getLevelData(x, y);
 
             if (grey) {
-                PD::drawBitmap(DESIGNER_LEVEL_OFFSET_X + bitmapX + this->designerScreenVariables.cursorXOffset, DESIGNER_LEVEL_OFFSET_Y + bitmapY + this->designerScreenVariables.cursorYOffset, Images::Tiles_Small_Grey[tile]);
+                PD::drawBitmap(bitmapX, bitmapY, Images::Tiles_Small_Grey[tile]);
             }
             else {
-                PD::drawBitmap(DESIGNER_LEVEL_OFFSET_X + bitmapX + this->designerScreenVariables.cursorXOffset, DESIGNER_LEVEL_OFFSET_Y + bitmapY + this->designerScreenVariables.cursorYOffset, Images::Tiles_Small[tile]);
+                PD::drawBitmap(bitmapX, bitmapY, Images::Tiles_Small[tile]);
             }
 
         }

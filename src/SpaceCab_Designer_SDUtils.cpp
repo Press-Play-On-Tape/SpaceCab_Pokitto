@@ -374,7 +374,9 @@ void Game::designer_WriteLevel(Level &level) {
 
     if (file.openRW(nameLVL, true, false)) {
 
-        file.write(&this->designerScreenVariables.entryCount, len1);
+        uint8_t levelCount = this->designerScreenVariables.entryCount - 1;
+
+        file.write(&levelCount, len1);
         file.write(&this->level.getLevelData()[1], ((level.getLevelNumber() - 1) * ENTRY_LENGTH));
         file.write(this->level.getLevelName(), 32);
 
