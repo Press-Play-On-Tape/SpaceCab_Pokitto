@@ -12889,6 +12889,1794 @@
 		},
 		"/SpaceCab_Pokitto.bin.1.gif": {
 			"sdcard": false
+		},
+		"/SpaceCab_V1.0.1.bin": {
+			"sdcard": false
+		},
+		"\\distributable": {
+			"sdcard": false
+		},
+		"\\Backup": {
+			"sdcard": false
+		},
+		"\\music": {
+			"sdcard": true
+		},
+		"\\music_orig": {
+			"sdcard": false
+		},
+		"\\SpaceCab.pop": {
+			"sdcard": false
+		},
+		"\\SpaceCab.bin": {
+			"sdcard": false
+		},
+		"\\SpaceCab.zip": {
+			"sdcard": false
+		},
+		"\\SpaceCab_Pokitto.bin": {
+			"sdcard": false
+		},
+		"\\LICENSE": {
+			"sdcard": false
+		},
+		"\\SpaceCab_Pokitto.eeprom": {
+			"sdcard": false
+		},
+		"\\SpaceCab_Pokitto.elf": {
+			"sdcard": false
+		},
+		"\\README.md": {
+			"sdcard": false
+		},
+		"\\distributable\\Movie.gif": {
+			"sdcard": false
+		},
+		"\\distributable\\Screenshot_02.h": {
+			"sdcard": false
+		},
+		"\\distributable\\Screenshot_01.h": {
+			"sdcard": false
+		},
+		"\\distributable\\Screenshot_02.png": {
+			"sdcard": false
+		},
+		"\\distributable\\Screenshot_03.h": {
+			"sdcard": false
+		},
+		"\\distributable\\Screenshot_04.h": {
+			"sdcard": false
+		},
+		"\\distributable\\Screenshot_01.png": {
+			"sdcard": false
+		},
+		"\\distributable\\Screenshot_03.png": {
+			"sdcard": false
+		},
+		"\\distributable\\Screenshot_04.png": {
+			"sdcard": false
+		},
+		"\\distributable\\Screenshot_05.h": {
+			"sdcard": false
+		},
+		"\\distributable\\Screenshot_05.png": {
+			"sdcard": false
+		},
+		"\\distributable\\Screenshot_06.h": {
+			"sdcard": false
+		},
+		"\\distributable\\Screenshot_06.png": {
+			"sdcard": false
+		},
+		"\\distributable\\Screenshot_07.h": {
+			"sdcard": false
+		},
+		"\\distributable\\Screenshot_07.png": {
+			"sdcard": false
+		},
+		"\\distributable\\Screenshot_08.h": {
+			"sdcard": false
+		},
+		"\\distributable\\SpaceCab_24x24Icon.h": {
+			"sdcard": false
+		},
+		"\\distributable\\Screenshot_08.png": {
+			"sdcard": false
+		},
+		"\\distributable\\SpaceCab_24x24Icon.png": {
+			"sdcard": false
+		},
+		"\\distributable\\SpaceCab_32x32Icon.h": {
+			"sdcard": false
+		},
+		"\\distributable\\SpaceCab_PopBanner.h": {
+			"sdcard": false
+		},
+		"\\distributable\\SpaceCab_32x32Icon.png": {
+			"sdcard": false
+		},
+		"\\distributable\\SpaceCab_PopBanner.png": {
+			"sdcard": false
+		},
+		"\\Backup\\SPCAB000.raw": {
+			"sdcard": false
+		},
+		"\\Backup\\SPCAB001.raw": {
+			"sdcard": false
+		},
+		"\\Backup\\SPCAB002.raw": {
+			"sdcard": false
+		},
+		"\\Backup\\SPCAB004.raw": {
+			"sdcard": false
+		},
+		"\\Backup\\SPCAB005.raw": {
+			"sdcard": false
+		},
+		"\\Backup\\SPCAB006.raw": {
+			"sdcard": false
+		},
+		"\\Backup\\SPCAB003.raw": {
+			"sdcard": false
+		},
+		"\\Backup\\SPCAB007.raw": {
+			"sdcard": false
+		},
+		"\\Backup\\SPCAB008.raw": {
+			"sdcard": false
+		},
+		"\\Backup\\SPCAB010.raw": {
+			"sdcard": false
+		},
+		"\\Backup\\SPCAB009.raw": {
+			"sdcard": false
+		},
+		"\\Backup\\SPCAB011.raw": {
+			"sdcard": false
+		},
+		"\\Backup\\SPCABLVL.raw": {
+			"sdcard": false
+		},
+		"\\Backup\\SPCABTMP.raw": {
+			"sdcard": false
+		},
+		"\\music\\SPCAB_FILES": {
+			"sdcard": true
+		},
+		"\\music\\SPCAB_IMPORT": {
+			"sdcard": true
+		},
+		"\\music\\SPCAB_EXPORT": {
+			"sdcard": true
+		},
+		"\\music_orig\\03 Big Yellow Taxi.raw": {
+			"sdcard": false
+		},
+		"\\music_orig\\AllFemale.m4a": {
+			"sdcard": false
+		},
+		"\\music_orig\\AscendingBeeps.mp3": {
+			"sdcard": false
+		},
+		"\\music_orig\\AllMale.m4a": {
+			"sdcard": false
+		},
+		"\\music_orig\\audio_1.wav": {
+			"sdcard": false
+		},
+		"\\music_orig\\AscendingBeeps.raw": {
+			"sdcard": false
+		},
+		"\\music_orig\\audio_2.wav": {
+			"sdcard": false
+		},
+		"\\music_orig\\audio_4.wav": {
+			"sdcard": false
+		},
+		"\\music_orig\\audio_5.wav": {
+			"sdcard": false
+		},
+		"\\music_orig\\audio_7.wav": {
+			"sdcard": false
+		},
+		"\\music_orig\\audio_6.wav": {
+			"sdcard": false
+		},
+		"\\music_orig\\audio_8.wav": {
+			"sdcard": false
+		},
+		"\\music_orig\\Explosion.mp3": {
+			"sdcard": false
+		},
+		"\\music_orig\\audio_9.wav": {
+			"sdcard": false
+		},
+		"\\music_orig\\Explosion.raw": {
+			"sdcard": false
+		},
+		"\\music_orig\\Gulp.mp3": {
+			"sdcard": false
+		},
+		"\\music_orig\\Fgate.m4a": {
+			"sdcard": false
+		},
+		"\\music_orig\\HeyTaxi.wav": {
+			"sdcard": false
+		},
+		"\\music_orig\\HTM.raw": {
+			"sdcard": false
+		},
+		"\\music_orig\\HTF.raw": {
+			"sdcard": false
+		},
+		"\\music_orig\\Kaching.mp3": {
+			"sdcard": false
+		},
+		"\\music_orig\\MGate.m4a": {
+			"sdcard": false
+		},
+		"\\music_orig\\OuchFemale.mp3": {
+			"sdcard": false
+		},
+		"\\music_orig\\Kaching.raw": {
+			"sdcard": false
+		},
+		"\\music_orig\\OuchMale.mp3": {
+			"sdcard": false
+		},
+		"\\music_orig\\OuchMale.raw": {
+			"sdcard": false
+		},
+		"\\music_orig\\P1.m4a": {
+			"sdcard": false
+		},
+		"\\music_orig\\OuchFemale.raw": {
+			"sdcard": false
+		},
+		"\\music_orig\\P1PF.raw": {
+			"sdcard": false
+		},
+		"\\music_orig\\P1PM.raw": {
+			"sdcard": false
+		},
+		"\\music_orig\\P2PF.raw": {
+			"sdcard": false
+		},
+		"\\music_orig\\P3PF.raw": {
+			"sdcard": false
+		},
+		"\\music_orig\\P2PM.raw": {
+			"sdcard": false
+		},
+		"\\music_orig\\P3PM.raw": {
+			"sdcard": false
+		},
+		"\\music_orig\\P4PF.raw": {
+			"sdcard": false
+		},
+		"\\music_orig\\P4PM.raw": {
+			"sdcard": false
+		},
+		"\\music_orig\\P5PF.raw": {
+			"sdcard": false
+		},
+		"\\music_orig\\P5PM.raw": {
+			"sdcard": false
+		},
+		"\\music_orig\\P6PF.raw": {
+			"sdcard": false
+		},
+		"\\music_orig\\P6PM.raw": {
+			"sdcard": false
+		},
+		"\\music_orig\\P7PF.raw": {
+			"sdcard": false
+		},
+		"\\music_orig\\P7PM.raw": {
+			"sdcard": false
+		},
+		"\\music_orig\\P8PM.raw": {
+			"sdcard": false
+		},
+		"\\music_orig\\P8PF.raw": {
+			"sdcard": false
+		},
+		"\\music_orig\\P9PF.raw": {
+			"sdcard": false
+		},
+		"\\music_orig\\RollerDoor.mp3": {
+			"sdcard": false
+		},
+		"\\music_orig\\P9PM.raw": {
+			"sdcard": false
+		},
+		"\\music_orig\\RollerDoor.raw": {
+			"sdcard": false
+		},
+		"\\music_orig\\TGF1.raw": {
+			"sdcard": false
+		},
+		"\\music_orig\\TGF.raw": {
+			"sdcard": false
+		},
+		"\\music_orig\\TGM.raw": {
+			"sdcard": false
+		},
+		"\\music_orig\\TMT1F.raw": {
+			"sdcard": false
+		},
+		"\\music_orig\\thankyou.wav": {
+			"sdcard": false
+		},
+		"\\music_orig\\TMT2M.raw": {
+			"sdcard": false
+		},
+		"\\music_orig\\TMT1M.raw": {
+			"sdcard": false
+		},
+		"\\music_orig\\TMT2F.raw": {
+			"sdcard": false
+		},
+		"\\music_orig\\TMT3M.raw": {
+			"sdcard": false
+		},
+		"\\music_orig\\TMT3F.raw": {
+			"sdcard": false
+		},
+		"\\music_orig\\TMT4M.raw": {
+			"sdcard": false
+		},
+		"\\music_orig\\TMT4F.raw": {
+			"sdcard": false
+		},
+		"\\music_orig\\TMT5F.raw": {
+			"sdcard": false
+		},
+		"\\music_orig\\TMT5M.raw": {
+			"sdcard": false
+		},
+		"\\music_orig\\TMT7F.raw": {
+			"sdcard": false
+		},
+		"\\music_orig\\TMT6F.raw": {
+			"sdcard": false
+		},
+		"\\music_orig\\TMT6M.raw": {
+			"sdcard": false
+		},
+		"\\music_orig\\TMT8F.raw": {
+			"sdcard": false
+		},
+		"\\music_orig\\TMT7M.raw": {
+			"sdcard": false
+		},
+		"\\music_orig\\TMT8M.raw": {
+			"sdcard": false
+		},
+		"\\music_orig\\TMT9F.raw": {
+			"sdcard": false
+		},
+		"\\music_orig\\TMT9M.raw": {
+			"sdcard": false
+		},
+		"\\music_orig\\TMTGF.raw": {
+			"sdcard": false
+		},
+		"\\music_orig\\TYF.raw": {
+			"sdcard": false
+		},
+		"\\music_orig\\tothegateplease.wav": {
+			"sdcard": false
+		},
+		"\\music_orig\\TYM.raw": {
+			"sdcard": false
+		},
+		"\\src\\Entities": {
+			"sdcard": false
+		},
+		"\\src\\Images": {
+			"sdcard": false
+		},
+		"\\src\\SpaceCab.cpp": {
+			"sdcard": false
+		},
+		"\\src\\Sounds": {
+			"sdcard": false
+		},
+		"\\src\\SpaceCab_Designer.cpp": {
+			"sdcard": false
+		},
+		"\\src\\SpaceCab.h": {
+			"sdcard": false
+		},
+		"\\src\\SpaceCab_Designer_Render.cpp": {
+			"sdcard": false
+		},
+		"\\src\\SpaceCab_GameOver.cpp": {
+			"sdcard": false
+		},
+		"\\src\\SpaceCab_Designer_SDUtils.cpp": {
+			"sdcard": false
+		},
+		"\\src\\SpaceCab_HighScore.cpp": {
+			"sdcard": false
+		},
+		"\\src\\SpaceCab_Movements.cpp": {
+			"sdcard": false
+		},
+		"\\src\\SpaceCab_Intro.cpp": {
+			"sdcard": false
+		},
+		"\\src\\SpaceCab_Play.cpp": {
+			"sdcard": false
+		},
+		"\\src\\SpaceCab_SplashScreen.cpp": {
+			"sdcard": false
+		},
+		"\\src\\SpaceCab_Render.cpp": {
+			"sdcard": false
+		},
+		"\\src\\SpaceCab_Transitions.cpp": {
+			"sdcard": false
+		},
+		"\\src\\Utils": {
+			"sdcard": false
+		},
+		"\\src\\SpaceCab_Utils.cpp": {
+			"sdcard": false
+		},
+		"\\music\\SPCAB_FILES\\SPCAB000.raw": {
+			"sdcard": false
+		},
+		"\\music\\SPCAB_FILES\\SPCAB002.raw": {
+			"sdcard": false
+		},
+		"\\music\\SPCAB_FILES\\SPCAB004.raw": {
+			"sdcard": false
+		},
+		"\\music\\SPCAB_FILES\\SPCAB001.raw": {
+			"sdcard": false
+		},
+		"\\music\\SPCAB_FILES\\SPCAB003.raw": {
+			"sdcard": false
+		},
+		"\\music\\SPCAB_FILES\\SPCAB006.raw": {
+			"sdcard": false
+		},
+		"\\music\\SPCAB_FILES\\SPCAB005.raw": {
+			"sdcard": false
+		},
+		"\\music\\SPCAB_FILES\\SPCAB009.raw": {
+			"sdcard": false
+		},
+		"\\music\\SPCAB_FILES\\SPCAB007.raw": {
+			"sdcard": false
+		},
+		"\\music\\SPCAB_FILES\\SPCAB008.raw": {
+			"sdcard": false
+		},
+		"\\music\\SPCAB_FILES\\SPCAB010.raw": {
+			"sdcard": false
+		},
+		"\\music\\SPCAB_FILES\\SPCABF01.raw": {
+			"sdcard": false
+		},
+		"\\music\\SPCAB_FILES\\SPCABF02.raw": {
+			"sdcard": false
+		},
+		"\\music\\SPCAB_FILES\\SPCAB011.raw": {
+			"sdcard": false
+		},
+		"\\music\\SPCAB_FILES\\SPCABF11.raw": {
+			"sdcard": false
+		},
+		"\\music\\SPCAB_FILES\\SPCABF10.raw": {
+			"sdcard": false
+		},
+		"\\music\\SPCAB_FILES\\SPCABF13.raw": {
+			"sdcard": false
+		},
+		"\\music\\SPCAB_FILES\\SPCABF12.raw": {
+			"sdcard": false
+		},
+		"\\music\\SPCAB_FILES\\SPCABF14.raw": {
+			"sdcard": false
+		},
+		"\\music\\SPCAB_FILES\\SPCABF15.raw": {
+			"sdcard": false
+		},
+		"\\music\\SPCAB_FILES\\SPCABF16.raw": {
+			"sdcard": false
+		},
+		"\\music\\SPCAB_FILES\\SPCABF20.raw": {
+			"sdcard": false
+		},
+		"\\music\\SPCAB_FILES\\SPCABF18.raw": {
+			"sdcard": false
+		},
+		"\\music\\SPCAB_FILES\\SPCABF17.raw": {
+			"sdcard": false
+		},
+		"\\music\\SPCAB_FILES\\SPCABF19.raw": {
+			"sdcard": false
+		},
+		"\\music\\SPCAB_FILES\\SPCABF21.raw": {
+			"sdcard": false
+		},
+		"\\music\\SPCAB_FILES\\SPCABF24.raw": {
+			"sdcard": false
+		},
+		"\\music\\SPCAB_FILES\\SPCABF22.raw": {
+			"sdcard": false
+		},
+		"\\music\\SPCAB_FILES\\SPCABF23.raw": {
+			"sdcard": false
+		},
+		"\\music\\SPCAB_FILES\\SPCABF25.raw": {
+			"sdcard": false
+		},
+		"\\music\\SPCAB_FILES\\SPCABF29.raw": {
+			"sdcard": false
+		},
+		"\\music\\SPCAB_FILES\\SPCABF27.raw": {
+			"sdcard": false
+		},
+		"\\music\\SPCAB_FILES\\SPCABF28.raw": {
+			"sdcard": false
+		},
+		"\\music\\SPCAB_FILES\\SPCABF26.raw": {
+			"sdcard": false
+		},
+		"\\music\\SPCAB_FILES\\SPCABLVL.raw": {
+			"sdcard": false
+		},
+		"\\music\\SPCAB_FILES\\SPCABM01.raw": {
+			"sdcard": false
+		},
+		"\\music\\SPCAB_FILES\\SPCABM02.raw": {
+			"sdcard": false
+		},
+		"\\music\\SPCAB_FILES\\SPCABM11.raw": {
+			"sdcard": false
+		},
+		"\\music\\SPCAB_FILES\\SPCABM10.raw": {
+			"sdcard": false
+		},
+		"\\music\\SPCAB_FILES\\SPCABM12.raw": {
+			"sdcard": false
+		},
+		"\\music\\SPCAB_FILES\\SPCABM13.raw": {
+			"sdcard": false
+		},
+		"\\music\\SPCAB_FILES\\SPCABM14.raw": {
+			"sdcard": false
+		},
+		"\\music\\SPCAB_FILES\\SPCABM15.raw": {
+			"sdcard": false
+		},
+		"\\music\\SPCAB_FILES\\SPCABM16.raw": {
+			"sdcard": false
+		},
+		"\\music\\SPCAB_FILES\\SPCABM18.raw": {
+			"sdcard": false
+		},
+		"\\music\\SPCAB_FILES\\SPCABM17.raw": {
+			"sdcard": false
+		},
+		"\\music\\SPCAB_FILES\\SPCABM19.raw": {
+			"sdcard": false
+		},
+		"\\music\\SPCAB_FILES\\SPCABM21.raw": {
+			"sdcard": false
+		},
+		"\\music\\SPCAB_FILES\\SPCABM20.raw": {
+			"sdcard": false
+		},
+		"\\music\\SPCAB_FILES\\SPCABM22.raw": {
+			"sdcard": false
+		},
+		"\\music\\SPCAB_FILES\\SPCABM23.raw": {
+			"sdcard": false
+		},
+		"\\music\\SPCAB_FILES\\SPCABM24.raw": {
+			"sdcard": false
+		},
+		"\\music\\SPCAB_FILES\\SPCABM25.raw": {
+			"sdcard": false
+		},
+		"\\music\\SPCAB_FILES\\SPCABM26.raw": {
+			"sdcard": false
+		},
+		"\\music\\SPCAB_FILES\\SPCABM28.raw": {
+			"sdcard": false
+		},
+		"\\music\\SPCAB_FILES\\SPCABM27.raw": {
+			"sdcard": false
+		},
+		"\\music\\SPCAB_FILES\\SPCABS01.raw": {
+			"sdcard": false
+		},
+		"\\music\\SPCAB_FILES\\SPCABM29.raw": {
+			"sdcard": false
+		},
+		"\\music\\SPCAB_FILES\\SPCABS00.raw": {
+			"sdcard": false
+		},
+		"\\music\\SPCAB_FILES\\SPCABS02.raw": {
+			"sdcard": false
+		},
+		"\\music\\SPCAB_FILES\\SPCABS03.raw": {
+			"sdcard": false
+		},
+		"\\music\\SPCAB_FILES\\SPCABS04.raw": {
+			"sdcard": false
+		},
+		"\\music\\SPCAB_FILES\\SPCABTMP.raw": {
+			"sdcard": false
+		},
+		"\\music\\SPCAB_FILES\\SPCABS05.raw": {
+			"sdcard": false
+		},
+		"\\music\\SPCAB_FILES\\SPCABS06.raw": {
+			"sdcard": false
+		},
+		"\\music\\SPCAB_EXPORT\\Instructions.txt": {
+			"sdcard": false
+		},
+		"\\music\\SPCAB_IMPORT\\Instructions.txt": {
+			"sdcard": false
+		},
+		"\\src\\Entities\\Entities.h": {
+			"sdcard": false
+		},
+		"\\src\\Entities\\Fuel.h": {
+			"sdcard": false
+		},
+		"\\src\\Entities\\Customer.h": {
+			"sdcard": false
+		},
+		"\\src\\Entities\\Gate.h": {
+			"sdcard": false
+		},
+		"\\src\\Entities\\Level.h": {
+			"sdcard": false
+		},
+		"\\src\\Entities\\Slot.h": {
+			"sdcard": false
+		},
+		"\\src\\Entities\\Levels.h": {
+			"sdcard": false
+		},
+		"\\src\\Entities\\Player.h": {
+			"sdcard": false
+		},
+		"\\src\\Images\\Alert.h": {
+			"sdcard": false
+		},
+		"\\src\\Images\\arrows": {
+			"sdcard": false
+		},
+		"\\src\\Images\\Alert.png": {
+			"sdcard": false
+		},
+		"\\src\\Images\\CheckeredBG_White.h": {
+			"sdcard": false
+		},
+		"\\src\\Images\\Checkers.h": {
+			"sdcard": false
+		},
+		"\\src\\Images\\Checkers.png": {
+			"sdcard": false
+		},
+		"\\src\\Images\\CheckeredBG_White.png": {
+			"sdcard": false
+		},
+		"\\src\\Images\\Checkers_Grey.png": {
+			"sdcard": false
+		},
+		"\\src\\Images\\Checkers_Large.h": {
+			"sdcard": false
+		},
+		"\\src\\Images\\Checkers_Grey.h": {
+			"sdcard": false
+		},
+		"\\src\\Images\\customer": {
+			"sdcard": false
+		},
+		"\\src\\Images\\designer": {
+			"sdcard": false
+		},
+		"\\src\\Images\\Checkers_Large.png": {
+			"sdcard": false
+		},
+		"\\src\\Images\\Design_Flag.h": {
+			"sdcard": false
+		},
+		"\\src\\Images\\dollars": {
+			"sdcard": false
+		},
+		"\\src\\Images\\Design_Flag.png": {
+			"sdcard": false
+		},
+		"\\src\\Images\\EndOfGameBadge.h": {
+			"sdcard": false
+		},
+		"\\src\\Images\\Falling_1G.h": {
+			"sdcard": false
+		},
+		"\\src\\Images\\Falling_1G.png": {
+			"sdcard": false
+		},
+		"\\src\\Images\\EndOfGameBadge.png": {
+			"sdcard": false
+		},
+		"\\src\\Images\\Falling_2G.png": {
+			"sdcard": false
+		},
+		"\\src\\Images\\Falling_2G.h": {
+			"sdcard": false
+		},
+		"\\src\\Images\\Falling_3G.h": {
+			"sdcard": false
+		},
+		"\\src\\Images\\Falling_4G.h": {
+			"sdcard": false
+		},
+		"\\src\\Images\\Falling_3G.png": {
+			"sdcard": false
+		},
+		"\\src\\Images\\fuel": {
+			"sdcard": false
+		},
+		"\\src\\Images\\Gameover.h": {
+			"sdcard": false
+		},
+		"\\src\\Images\\Falling_4G.png": {
+			"sdcard": false
+		},
+		"\\src\\Images\\hail": {
+			"sdcard": false
+		},
+		"\\src\\Images\\Gameover.png": {
+			"sdcard": false
+		},
+		"\\src\\Images\\highscore": {
+			"sdcard": false
+		},
+		"\\src\\Images\\Images.h": {
+			"sdcard": false
+		},
+		"\\src\\Images\\hud": {
+			"sdcard": false
+		},
+		"\\src\\Images\\Pause.png": {
+			"sdcard": false
+		},
+		"\\src\\Images\\player": {
+			"sdcard": false
+		},
+		"\\src\\Images\\Pause.h": {
+			"sdcard": false
+		},
+		"\\src\\Images\\ppot": {
+			"sdcard": false
+		},
+		"\\src\\Images\\Scores_Flag.h": {
+			"sdcard": false
+		},
+		"\\src\\Images\\Scores_Flag.png": {
+			"sdcard": false
+		},
+		"\\src\\Images\\SpaceCabLogo.h": {
+			"sdcard": false
+		},
+		"\\src\\Images\\switch": {
+			"sdcard": false
+		},
+		"\\src\\Images\\tiles": {
+			"sdcard": false
+		},
+		"\\src\\Images\\SpaceCabLogo.png": {
+			"sdcard": false
+		},
+		"\\src\\Sounds\\Themes.h": {
+			"sdcard": false
+		},
+		"\\src\\Utils\\Constants.h": {
+			"sdcard": false
+		},
+		"\\src\\Utils\\GameCookie.h": {
+			"sdcard": false
+		},
+		"\\src\\Utils\\ClampedValue.h": {
+			"sdcard": false
+		},
+		"\\src\\Utils\\EEPROM_Utils.h": {
+			"sdcard": false
+		},
+		"\\src\\Utils\\Structs.h": {
+			"sdcard": false
+		},
+		"\\src\\Utils\\Utils.h": {
+			"sdcard": false
+		},
+		"\\src\\Utils\\HighScoreEditor.h": {
+			"sdcard": false
+		},
+		"\\src\\Utils\\WrappedValue.h": {
+			"sdcard": false
+		},
+		"\\src\\Utils\\Vector2.h": {
+			"sdcard": false
+		},
+		"\\src\\Images\\arrows\\ArrowD.h": {
+			"sdcard": false
+		},
+		"\\src\\Images\\arrows\\ArrowDL.h": {
+			"sdcard": false
+		},
+		"\\src\\Images\\arrows\\ArrowD.png": {
+			"sdcard": false
+		},
+		"\\src\\Images\\arrows\\ArrowDR.h": {
+			"sdcard": false
+		},
+		"\\src\\Images\\arrows\\ArrowDL.png": {
+			"sdcard": false
+		},
+		"\\src\\Images\\arrows\\ArrowL.h": {
+			"sdcard": false
+		},
+		"\\src\\Images\\arrows\\ArrowR.h": {
+			"sdcard": false
+		},
+		"\\src\\Images\\arrows\\ArrowR.png": {
+			"sdcard": false
+		},
+		"\\src\\Images\\arrows\\ArrowL.png": {
+			"sdcard": false
+		},
+		"\\src\\Images\\arrows\\Arrows.h": {
+			"sdcard": false
+		},
+		"\\src\\Images\\arrows\\ArrowU.h": {
+			"sdcard": false
+		},
+		"\\src\\Images\\arrows\\ArrowUL.h": {
+			"sdcard": false
+		},
+		"\\src\\Images\\arrows\\ArrowU.png": {
+			"sdcard": false
+		},
+		"\\src\\Images\\arrows\\ArrowUR.h": {
+			"sdcard": false
+		},
+		"\\src\\Images\\arrows\\ArrowDR.png": {
+			"sdcard": false
+		},
+		"\\src\\Images\\arrows\\ArrowUR.png": {
+			"sdcard": false
+		},
+		"\\src\\Images\\arrows\\ArrowUL.png": {
+			"sdcard": false
+		},
+		"\\src\\Images\\customer\\Customers.h": {
+			"sdcard": false
+		},
+		"\\src\\Images\\customer\\Customer_Flat.h": {
+			"sdcard": false
+		},
+		"\\src\\Images\\customer\\Customer_Frame1.h": {
+			"sdcard": false
+		},
+		"\\src\\Images\\customer\\Customer_Flat.png": {
+			"sdcard": false
+		},
+		"\\src\\Images\\customer\\Customer_Frame1.png": {
+			"sdcard": false
+		},
+		"\\src\\Images\\customer\\Customer_Frame2.h": {
+			"sdcard": false
+		},
+		"\\src\\Images\\customer\\Customer_Run_Left.h": {
+			"sdcard": false
+		},
+		"\\src\\Images\\customer\\Customer_Frame2.png": {
+			"sdcard": false
+		},
+		"\\src\\Images\\customer\\Customer_Run_Left.png": {
+			"sdcard": false
+		},
+		"\\src\\Images\\customer\\Customer_Run_Left_2.h": {
+			"sdcard": false
+		},
+		"\\src\\Images\\customer\\Customer_Run_Left_2.png": {
+			"sdcard": false
+		},
+		"\\src\\Images\\customer\\Customer_Run_Right.h": {
+			"sdcard": false
+		},
+		"\\src\\Images\\customer\\Customer_Run_Right_2.h": {
+			"sdcard": false
+		},
+		"\\src\\Images\\customer\\Customer_Run_Right.png": {
+			"sdcard": false
+		},
+		"\\src\\Images\\customer\\Customer_Run_Right_2.png": {
+			"sdcard": false
+		},
+		"\\src\\Images\\designer\\Cursor.h": {
+			"sdcard": false
+		},
+		"\\src\\Images\\designer\\Cursor_Grey.h": {
+			"sdcard": false
+		},
+		"\\src\\Images\\designer\\Cursor.png": {
+			"sdcard": false
+		},
+		"\\src\\Images\\designer\\Cursor_Grey.png": {
+			"sdcard": false
+		},
+		"\\src\\Images\\designer\\Designer.h": {
+			"sdcard": false
+		},
+		"\\src\\Images\\designer\\Panel.h": {
+			"sdcard": false
+		},
+		"\\src\\Images\\designer\\PanelButtons.h": {
+			"sdcard": false
+		},
+		"\\src\\Images\\designer\\UpDown.h": {
+			"sdcard": false
+		},
+		"\\src\\Images\\designer\\Panel.png": {
+			"sdcard": false
+		},
+		"\\src\\Images\\designer\\PanelButtons.png": {
+			"sdcard": false
+		},
+		"\\src\\Images\\designer\\UpDown_Highlight.h": {
+			"sdcard": false
+		},
+		"\\src\\Images\\designer\\UpDown.png": {
+			"sdcard": false
+		},
+		"\\src\\Images\\dollars\\Dollars.h": {
+			"sdcard": false
+		},
+		"\\src\\Images\\dollars\\Dollars_01.h": {
+			"sdcard": false
+		},
+		"\\src\\Images\\designer\\UpDown_Highlight.png": {
+			"sdcard": false
+		},
+		"\\src\\Images\\dollars\\Dollars_01.png": {
+			"sdcard": false
+		},
+		"\\src\\Images\\dollars\\Dollars_02.h": {
+			"sdcard": false
+		},
+		"\\src\\Images\\dollars\\Dollars_03.png": {
+			"sdcard": false
+		},
+		"\\src\\Images\\dollars\\Dollars_02.png": {
+			"sdcard": false
+		},
+		"\\src\\Images\\dollars\\Dollars_03.h": {
+			"sdcard": false
+		},
+		"\\src\\Images\\dollars\\Dollars_04.h": {
+			"sdcard": false
+		},
+		"\\src\\Images\\dollars\\Dollars_04.png": {
+			"sdcard": false
+		},
+		"\\src\\Images\\dollars\\Dollars_05.h": {
+			"sdcard": false
+		},
+		"\\src\\Images\\dollars\\Dollars_05.png": {
+			"sdcard": false
+		},
+		"\\src\\Images\\fuel\\Fuel.h": {
+			"sdcard": false
+		},
+		"\\src\\Images\\fuel\\Fuel_1.h": {
+			"sdcard": false
+		},
+		"\\src\\Images\\fuel\\Fuels.h": {
+			"sdcard": false
+		},
+		"\\src\\Images\\fuel\\Fuel.png": {
+			"sdcard": false
+		},
+		"\\src\\Images\\fuel\\Fuel_1.png": {
+			"sdcard": false
+		},
+		"\\src\\Images\\fuel\\Fuel_2.h": {
+			"sdcard": false
+		},
+		"\\src\\Images\\fuel\\Fuel_3.h": {
+			"sdcard": false
+		},
+		"\\src\\Images\\fuel\\Fuel_2.png": {
+			"sdcard": false
+		},
+		"\\src\\Images\\fuel\\Fuel_3.png": {
+			"sdcard": false
+		},
+		"\\src\\Images\\fuel\\Fuel_4.h": {
+			"sdcard": false
+		},
+		"\\src\\Images\\fuel\\Fuel_4.png": {
+			"sdcard": false
+		},
+		"\\src\\Images\\fuel\\Fuel_Icon.h": {
+			"sdcard": false
+		},
+		"\\src\\Images\\fuel\\Fuel_Icon.png": {
+			"sdcard": false
+		},
+		"\\src\\Images\\hail\\Hails.h": {
+			"sdcard": false
+		},
+		"\\src\\Images\\hail\\Hail.h": {
+			"sdcard": false
+		},
+		"\\src\\Images\\hail\\Hail_GFX.h": {
+			"sdcard": false
+		},
+		"\\src\\Images\\hail\\Hail.png": {
+			"sdcard": false
+		},
+		"\\src\\Images\\hail\\Hail_GFX.png": {
+			"sdcard": false
+		},
+		"\\src\\Images\\hail\\Hail_GFX_GATE.h": {
+			"sdcard": false
+		},
+		"\\src\\Images\\hail\\Hail_GoGate.h": {
+			"sdcard": false
+		},
+		"\\src\\Images\\hail\\Hail_GoGate.png": {
+			"sdcard": false
+		},
+		"\\src\\Images\\hail\\Hail_Ouch.h": {
+			"sdcard": false
+		},
+		"\\src\\Images\\hail\\Number1.h": {
+			"sdcard": false
+		},
+		"\\src\\Images\\hail\\Hail_Ouch.png": {
+			"sdcard": false
+		},
+		"\\src\\Images\\hail\\Number2.h": {
+			"sdcard": false
+		},
+		"\\src\\Images\\hail\\Number1.png": {
+			"sdcard": false
+		},
+		"\\src\\Images\\hail\\Number3.png": {
+			"sdcard": false
+		},
+		"\\src\\Images\\hail\\Number2.png": {
+			"sdcard": false
+		},
+		"\\src\\Images\\hail\\Number3.h": {
+			"sdcard": false
+		},
+		"\\src\\Images\\hail\\Number4.h": {
+			"sdcard": false
+		},
+		"\\src\\Images\\hail\\Number4.png": {
+			"sdcard": false
+		},
+		"\\src\\Images\\hail\\Number5.h": {
+			"sdcard": false
+		},
+		"\\src\\Images\\hail\\Number5.png": {
+			"sdcard": false
+		},
+		"\\src\\Images\\hail\\Number6.h": {
+			"sdcard": false
+		},
+		"\\src\\Images\\hail\\Number6.png": {
+			"sdcard": false
+		},
+		"\\src\\Images\\hail\\Number7.h": {
+			"sdcard": false
+		},
+		"\\src\\Images\\hail\\Number8.png": {
+			"sdcard": false
+		},
+		"\\src\\Images\\hail\\Number7.png": {
+			"sdcard": false
+		},
+		"\\src\\Images\\hail\\Number8.h": {
+			"sdcard": false
+		},
+		"\\src\\Images\\hail\\Number9.h": {
+			"sdcard": false
+		},
+		"\\src\\Images\\hail\\Number9.png": {
+			"sdcard": false
+		},
+		"\\src\\Images\\highscore\\HighScores.h": {
+			"sdcard": false
+		},
+		"\\src\\Images\\highscore\\HS_Highlight.h": {
+			"sdcard": false
+		},
+		"\\src\\Images\\highscore\\HighScore.png": {
+			"sdcard": false
+		},
+		"\\src\\Images\\highscore\\HighScore.h": {
+			"sdcard": false
+		},
+		"\\src\\Images\\highscore\\HS_Highlight.png": {
+			"sdcard": false
+		},
+		"\\src\\Images\\hud\\FULL_HUD.h": {
+			"sdcard": false
+		},
+		"\\src\\Images\\hud\\FULL_HUD.png": {
+			"sdcard": false
+		},
+		"\\src\\Images\\hud\\Hud.h": {
+			"sdcard": false
+		},
+		"\\src\\Images\\hud\\GPS_icon.h": {
+			"sdcard": false
+		},
+		"\\src\\Images\\hud\\GPS_icon.png": {
+			"sdcard": false
+		},
+		"\\src\\Images\\hud\\livesLeft.h": {
+			"sdcard": false
+		},
+		"\\src\\Images\\hud\\livesLeftMask.h": {
+			"sdcard": false
+		},
+		"\\src\\Images\\hud\\livesLeft.png": {
+			"sdcard": false
+		},
+		"\\src\\Images\\hud\\livesLeftMask.png": {
+			"sdcard": false
+		},
+		"\\src\\Images\\hud\\SpaceCabHUD.h": {
+			"sdcard": false
+		},
+		"\\src\\Images\\hud\\SpaceCabHUDMask.h": {
+			"sdcard": false
+		},
+		"\\src\\Images\\hud\\SpaceCabHUD.png": {
+			"sdcard": false
+		},
+		"\\src\\Images\\hud\\SpaceCabHUDMask.png": {
+			"sdcard": false
+		},
+		"\\src\\Images\\hud\\SpaceCabHUDMask_Old.h": {
+			"sdcard": false
+		},
+		"\\src\\Images\\hud\\SpaceCabHUDMask_Time.h": {
+			"sdcard": false
+		},
+		"\\src\\Images\\hud\\SpaceCabHUDMask_Old.png": {
+			"sdcard": false
+		},
+		"\\src\\Images\\hud\\SpaceCabHUD_old.h": {
+			"sdcard": false
+		},
+		"\\src\\Images\\hud\\SpaceCabHUD_Time.h": {
+			"sdcard": false
+		},
+		"\\src\\Images\\hud\\SpaceCabHUDMask_Time.png": {
+			"sdcard": false
+		},
+		"\\src\\Images\\hud\\SpaceCabHUD_old.png": {
+			"sdcard": false
+		},
+		"\\src\\Images\\hud\\SpaceCabHUD_Time.png": {
+			"sdcard": false
+		},
+		"\\src\\Images\\player\\Player.h": {
+			"sdcard": false
+		},
+		"\\src\\Images\\player\\SpaceCabWithRamp_Left.h": {
+			"sdcard": false
+		},
+		"\\src\\Images\\player\\SpaceCabWithRamp_Right.h": {
+			"sdcard": false
+		},
+		"\\src\\Images\\player\\SpaceCabWithRamp_Left.png": {
+			"sdcard": false
+		},
+		"\\src\\Images\\player\\SpaceCab_Sml.png": {
+			"sdcard": false
+		},
+		"\\src\\Images\\player\\SpaceCab_Sml.h": {
+			"sdcard": false
+		},
+		"\\src\\Images\\player\\SpaceCabWithRamp_Right.png": {
+			"sdcard": false
+		},
+		"\\src\\Images\\player\\SpaceCab_Sml_Grey.h": {
+			"sdcard": false
+		},
+		"\\src\\Images\\player\\SpaceCab_Sml_Grey.png": {
+			"sdcard": false
+		},
+		"\\src\\Images\\player\\SpaceTaxi_facingLeft.h": {
+			"sdcard": false
+		},
+		"\\src\\Images\\player\\SpaceTaxi_facingLeft_Exp1.h": {
+			"sdcard": false
+		},
+		"\\src\\Images\\player\\SpaceTaxi_facingLeft_Exp2.h": {
+			"sdcard": false
+		},
+		"\\src\\Images\\player\\SpaceTaxi_facingLeft_Exp3.h": {
+			"sdcard": false
+		},
+		"\\src\\Images\\player\\SpaceTaxi_facingLeft.png": {
+			"sdcard": false
+		},
+		"\\src\\Images\\player\\SpaceTaxi_facingLeft_Exp4.h": {
+			"sdcard": false
+		},
+		"\\src\\Images\\player\\SpaceTaxi_facingLeft_Exp5.h": {
+			"sdcard": false
+		},
+		"\\src\\Images\\player\\SpaceTaxi_facingRight.h": {
+			"sdcard": false
+		},
+		"\\src\\Images\\player\\SpaceTaxi_facingRightMask.h": {
+			"sdcard": false
+		},
+		"\\src\\Images\\player\\SpaceTaxi_facingLeft_Exp5.png": {
+			"sdcard": false
+		},
+		"\\src\\Images\\player\\SpaceTaxi_facingRight_Exp1.h": {
+			"sdcard": false
+		},
+		"\\src\\Images\\player\\SpaceTaxi_facingRight_Exp2.h": {
+			"sdcard": false
+		},
+		"\\src\\Images\\player\\SpaceTaxi_facingRight_Exp3.h": {
+			"sdcard": false
+		},
+		"\\src\\Images\\player\\SpaceTaxi_OutOfFuel_1L.h": {
+			"sdcard": false
+		},
+		"\\src\\Images\\player\\SpaceTaxi_facingRight_Exp4.h": {
+			"sdcard": false
+		},
+		"\\src\\Images\\player\\SpaceTaxi_OutOfFuel_1R.h": {
+			"sdcard": false
+		},
+		"\\src\\Images\\player\\SpaceTaxi_OutOfFuel_1L.png": {
+			"sdcard": false
+		},
+		"\\src\\Images\\player\\SpaceTaxi_facingRight.png": {
+			"sdcard": false
+		},
+		"\\src\\Images\\player\\SpaceTaxi_OutOfFuel_2L.h": {
+			"sdcard": false
+		},
+		"\\src\\Images\\player\\SpaceTaxi_OutOfFuel_1R.png": {
+			"sdcard": false
+		},
+		"\\src\\Images\\player\\SpaceTaxi_OutOfFuel_2L.png": {
+			"sdcard": false
+		},
+		"\\src\\Images\\player\\SpaceTaxi_OutOfFuel_2R.png": {
+			"sdcard": false
+		},
+		"\\src\\Images\\player\\SpaceTaxi_OutOfFuel_3L.h": {
+			"sdcard": false
+		},
+		"\\src\\Images\\player\\SpaceTaxi_OutOfFuel_3R.h": {
+			"sdcard": false
+		},
+		"\\src\\Images\\player\\SpaceTaxi_OutOfFuel_2R.h": {
+			"sdcard": false
+		},
+		"\\src\\Images\\player\\SpaceTaxi_OutOfFuel_3L.png": {
+			"sdcard": false
+		},
+		"\\src\\Images\\player\\SpaceTaxi_OutOfFuel_3R.png": {
+			"sdcard": false
+		},
+		"\\src\\Images\\player\\SpaceTaxi_OutOfFuel_4L.h": {
+			"sdcard": false
+		},
+		"\\src\\Images\\player\\SpaceTaxi_OutOfFuel_4L.png": {
+			"sdcard": false
+		},
+		"\\src\\Images\\player\\SpaceTaxi_OutOfFuel_4R.png": {
+			"sdcard": false
+		},
+		"\\src\\Images\\player\\SpaceTaxi_OutOfFuel_4R.h": {
+			"sdcard": false
+		},
+		"\\src\\Images\\player\\ThrusterLeft_Frame0.h": {
+			"sdcard": false
+		},
+		"\\src\\Images\\player\\ThrusterLeft_Frame1.h": {
+			"sdcard": false
+		},
+		"\\src\\Images\\player\\ThrusterRight_Frame0.h": {
+			"sdcard": false
+		},
+		"\\src\\Images\\player\\ThrusterRight_Frame1.h": {
+			"sdcard": false
+		},
+		"\\src\\Images\\player\\ThrusterLeft_Frame0.png": {
+			"sdcard": false
+		},
+		"\\src\\Images\\player\\ThrusterLeft_Frame1.png": {
+			"sdcard": false
+		},
+		"\\src\\Images\\player\\ThrusterRight_Frame0.png": {
+			"sdcard": false
+		},
+		"\\src\\Images\\player\\ThrusterRight_Frame1.png": {
+			"sdcard": false
+		},
+		"\\src\\Images\\ppot\\PPOT.h": {
+			"sdcard": false
+		},
+		"\\src\\Images\\ppot\\Ppot_00.h": {
+			"sdcard": false
+		},
+		"\\src\\Images\\ppot\\Ppot_01.h": {
+			"sdcard": false
+		},
+		"\\src\\Images\\ppot\\Ppot_02.h": {
+			"sdcard": false
+		},
+		"\\src\\Images\\ppot\\Ppot_00.png": {
+			"sdcard": false
+		},
+		"\\src\\Images\\ppot\\Ppot_01.png": {
+			"sdcard": false
+		},
+		"\\src\\Images\\ppot\\Ppot_03.h": {
+			"sdcard": false
+		},
+		"\\src\\Images\\ppot\\Ppot_02.png": {
+			"sdcard": false
+		},
+		"\\src\\Images\\ppot\\Ppot_Arrow.h": {
+			"sdcard": false
+		},
+		"\\src\\Images\\ppot\\Ppot_Full.h": {
+			"sdcard": false
+		},
+		"\\src\\Images\\ppot\\Ppot_Arrow.png": {
+			"sdcard": false
+		},
+		"\\src\\Images\\ppot\\Ppot_03.png": {
+			"sdcard": false
+		},
+		"\\src\\Images\\ppot\\Ppot_Full.png": {
+			"sdcard": false
+		},
+		"\\src\\Images\\switch\\Switch1.gif": {
+			"sdcard": false
+		},
+		"\\src\\Images\\switch\\Switch1.h": {
+			"sdcard": false
+		},
+		"\\src\\Images\\switch\\Switch2.h": {
+			"sdcard": false
+		},
+		"\\src\\Images\\switch\\Switch1.png": {
+			"sdcard": false
+		},
+		"\\src\\Images\\switch\\Switch2.gif": {
+			"sdcard": false
+		},
+		"\\src\\Images\\switch\\Switch3.gif": {
+			"sdcard": false
+		},
+		"\\src\\Images\\switch\\Switch3.h": {
+			"sdcard": false
+		},
+		"\\src\\Images\\switch\\Switch2.png": {
+			"sdcard": false
+		},
+		"\\src\\Images\\switch\\Switch4OFF.h": {
+			"sdcard": false
+		},
+		"\\src\\Images\\switch\\Switch4ON.h": {
+			"sdcard": false
+		},
+		"\\src\\Images\\switch\\Switch3.png": {
+			"sdcard": false
+		},
+		"\\src\\Images\\switch\\Switch4OFF.png": {
+			"sdcard": false
+		},
+		"\\src\\Images\\switch\\Switch4ON.png": {
+			"sdcard": false
+		},
+		"\\src\\Images\\tiles\\large": {
+			"sdcard": false
+		},
+		"\\src\\Images\\tiles\\small": {
+			"sdcard": false
+		},
+		"\\src\\Images\\tiles\\small_grey": {
+			"sdcard": false
+		},
+		"\\src\\Images\\tiles\\large\\Brick.h": {
+			"sdcard": false
+		},
+		"\\src\\Images\\tiles\\large\\Edge1.h": {
+			"sdcard": false
+		},
+		"\\src\\Images\\tiles\\large\\Edge1.png": {
+			"sdcard": false
+		},
+		"\\src\\Images\\tiles\\large\\Empty.h": {
+			"sdcard": false
+		},
+		"\\src\\Images\\tiles\\large\\Brick.png": {
+			"sdcard": false
+		},
+		"\\src\\Images\\tiles\\large\\Empty_Stars1.h": {
+			"sdcard": false
+		},
+		"\\src\\Images\\tiles\\large\\Empty_Stars2.h": {
+			"sdcard": false
+		},
+		"\\src\\Images\\tiles\\large\\Empty.png": {
+			"sdcard": false
+		},
+		"\\src\\Images\\tiles\\large\\Empty_Stars1.png": {
+			"sdcard": false
+		},
+		"\\src\\Images\\tiles\\large\\Empty_Stars3.h": {
+			"sdcard": false
+		},
+		"\\src\\Images\\tiles\\large\\Empty_Stars4.h": {
+			"sdcard": false
+		},
+		"\\src\\Images\\tiles\\large\\Fuel1.h": {
+			"sdcard": false
+		},
+		"\\src\\Images\\tiles\\large\\Fuel1.png": {
+			"sdcard": false
+		},
+		"\\src\\Images\\tiles\\large\\Empty_Stars2.png": {
+			"sdcard": false
+		},
+		"\\src\\Images\\tiles\\large\\Gate1.h": {
+			"sdcard": false
+		},
+		"\\src\\Images\\tiles\\large\\Gate2.h": {
+			"sdcard": false
+		},
+		"\\src\\Images\\tiles\\large\\Gate1.png": {
+			"sdcard": false
+		},
+		"\\src\\Images\\tiles\\large\\Empty_Stars3.png": {
+			"sdcard": false
+		},
+		"\\src\\Images\\tiles\\large\\Grass.h": {
+			"sdcard": false
+		},
+		"\\src\\Images\\tiles\\large\\Grass.png": {
+			"sdcard": false
+		},
+		"\\src\\Images\\tiles\\large\\Leve1.h": {
+			"sdcard": false
+		},
+		"\\src\\Images\\tiles\\large\\Gate2.png": {
+			"sdcard": false
+		},
+		"\\src\\Images\\tiles\\large\\Leve2.h": {
+			"sdcard": false
+		},
+		"\\src\\Images\\tiles\\large\\Empty_Stars4.png": {
+			"sdcard": false
+		},
+		"\\src\\Images\\tiles\\large\\Meta2.h": {
+			"sdcard": false
+		},
+		"\\src\\Images\\tiles\\large\\Leve1.png": {
+			"sdcard": false
+		},
+		"\\src\\Images\\tiles\\large\\Leve2.png": {
+			"sdcard": false
+		},
+		"\\src\\Images\\tiles\\large\\Metal.h": {
+			"sdcard": false
+		},
+		"\\src\\Images\\tiles\\large\\Plat1.png": {
+			"sdcard": false
+		},
+		"\\src\\Images\\tiles\\large\\Plat1.h": {
+			"sdcard": false
+		},
+		"\\src\\Images\\tiles\\large\\Meta2.png": {
+			"sdcard": false
+		},
+		"\\src\\Images\\tiles\\large\\Rocks.h": {
+			"sdcard": false
+		},
+		"\\src\\Images\\tiles\\large\\Metal.png": {
+			"sdcard": false
+		},
+		"\\src\\Images\\tiles\\large\\Sand1.h": {
+			"sdcard": false
+		},
+		"\\src\\Images\\tiles\\large\\Sand1.png": {
+			"sdcard": false
+		},
+		"\\src\\Images\\tiles\\large\\Rocks.png": {
+			"sdcard": false
+		},
+		"\\src\\Images\\tiles\\large\\Sign1.h": {
+			"sdcard": false
+		},
+		"\\src\\Images\\tiles\\large\\Sign1.png": {
+			"sdcard": false
+		},
+		"\\src\\Images\\tiles\\large\\SpikesDown.h": {
+			"sdcard": false
+		},
+		"\\src\\Images\\tiles\\large\\Tiles.h": {
+			"sdcard": false
+		},
+		"\\src\\Images\\tiles\\large\\SpikesUp.h": {
+			"sdcard": false
+		},
+		"\\src\\Images\\tiles\\large\\SpikesDown.png": {
+			"sdcard": false
+		},
+		"\\src\\Images\\tiles\\large\\Water.h": {
+			"sdcard": false
+		},
+		"\\src\\Images\\tiles\\large\\SpikesUp.png": {
+			"sdcard": false
+		},
+		"\\src\\Images\\tiles\\large\\Water.png": {
+			"sdcard": false
+		},
+		"\\src\\Images\\tiles\\large\\WaterAlt.png": {
+			"sdcard": false
+		},
+		"\\src\\Images\\tiles\\large\\WaterAlt.h": {
+			"sdcard": false
+		},
+		"\\src\\Images\\tiles\\small\\Edge1_Sml.h": {
+			"sdcard": false
+		},
+		"\\src\\Images\\tiles\\small\\Brick_Sml.h": {
+			"sdcard": false
+		},
+		"\\src\\Images\\tiles\\small\\Edge1_Sml.png": {
+			"sdcard": false
+		},
+		"\\src\\Images\\tiles\\small\\Empty_Sml.h": {
+			"sdcard": false
+		},
+		"\\src\\Images\\tiles\\small\\Fuel1_Sml.png": {
+			"sdcard": false
+		},
+		"\\src\\Images\\tiles\\small\\Fuel1_Sml.h": {
+			"sdcard": false
+		},
+		"\\src\\Images\\tiles\\small\\Gate1_Sml.h": {
+			"sdcard": false
+		},
+		"\\src\\Images\\tiles\\small\\Gate2_Sml.h": {
+			"sdcard": false
+		},
+		"\\src\\Images\\tiles\\small\\Brick_Sml.png": {
+			"sdcard": false
+		},
+		"\\src\\Images\\tiles\\small\\Gate1_Sml.png": {
+			"sdcard": false
+		},
+		"\\src\\Images\\tiles\\small\\Grass_Sml.h": {
+			"sdcard": false
+		},
+		"\\src\\Images\\tiles\\small\\Empty_Sml.png": {
+			"sdcard": false
+		},
+		"\\src\\Images\\tiles\\small\\Leve1_Sml.h": {
+			"sdcard": false
+		},
+		"\\src\\Images\\tiles\\small\\Leve2_Sml.h": {
+			"sdcard": false
+		},
+		"\\src\\Images\\tiles\\small\\Gate2_Sml.png": {
+			"sdcard": false
+		},
+		"\\src\\Images\\tiles\\small\\Meta2_Sml.h": {
+			"sdcard": false
+		},
+		"\\src\\Images\\tiles\\small\\Leve2_Sml.png": {
+			"sdcard": false
+		},
+		"\\src\\Images\\tiles\\small\\Grass_Sml.png": {
+			"sdcard": false
+		},
+		"\\src\\Images\\tiles\\small\\Metal_Sml.h": {
+			"sdcard": false
+		},
+		"\\src\\Images\\tiles\\small\\Meta2_Sml.png": {
+			"sdcard": false
+		},
+		"\\src\\Images\\tiles\\small\\Leve1_Sml.png": {
+			"sdcard": false
+		},
+		"\\src\\Images\\tiles\\small\\Plat1_Sml.png": {
+			"sdcard": false
+		},
+		"\\src\\Images\\tiles\\small\\Plat1_Sml.h": {
+			"sdcard": false
+		},
+		"\\src\\Images\\tiles\\small\\Metal_Sml.png": {
+			"sdcard": false
+		},
+		"\\src\\Images\\tiles\\small\\Rocks_Sml.h": {
+			"sdcard": false
+		},
+		"\\src\\Images\\tiles\\small\\Sand1_Sml.h": {
+			"sdcard": false
+		},
+		"\\src\\Images\\tiles\\small\\Sign1_Sml.h": {
+			"sdcard": false
+		},
+		"\\src\\Images\\tiles\\small\\SpikesDown_Sml.h": {
+			"sdcard": false
+		},
+		"\\src\\Images\\tiles\\small\\Rocks_Sml.png": {
+			"sdcard": false
+		},
+		"\\src\\Images\\tiles\\small\\SpikesUp_Sml.h": {
+			"sdcard": false
+		},
+		"\\src\\Images\\tiles\\small\\Sand1_Sml.png": {
+			"sdcard": false
+		},
+		"\\src\\Images\\tiles\\small\\SpikesUp_Sml.png": {
+			"sdcard": false
+		},
+		"\\src\\Images\\tiles\\small\\Tiles.h": {
+			"sdcard": false
+		},
+		"\\src\\Images\\tiles\\small\\Sign1_Sml.png": {
+			"sdcard": false
+		},
+		"\\src\\Images\\tiles\\small\\SpikesDown_Sml.png": {
+			"sdcard": false
+		},
+		"\\src\\Images\\tiles\\small\\Water_Sml.h": {
+			"sdcard": false
+		},
+		"\\src\\Images\\tiles\\small_grey\\Brick_Sml_Grey.h": {
+			"sdcard": false
+		},
+		"\\src\\Images\\tiles\\small_grey\\Brick_Sml_Grey.png": {
+			"sdcard": false
+		},
+		"\\src\\Images\\tiles\\small\\Water_Sml.png": {
+			"sdcard": false
+		},
+		"\\src\\Images\\tiles\\small_grey\\Edge1_Sml_Grey.h": {
+			"sdcard": false
+		},
+		"\\src\\Images\\tiles\\small_grey\\Edge1_Sml_Grey.png": {
+			"sdcard": false
+		},
+		"\\src\\Images\\tiles\\small_grey\\Empty_Sml_Grey.h": {
+			"sdcard": false
+		},
+		"\\src\\Images\\tiles\\small_grey\\Empty_Sml_Grey.png": {
+			"sdcard": false
+		},
+		"\\src\\Images\\tiles\\small_grey\\Fuel1_Sml_Grey.h": {
+			"sdcard": false
+		},
+		"\\src\\Images\\tiles\\small_grey\\Fuel1_Sml_Grey.png": {
+			"sdcard": false
+		},
+		"\\src\\Images\\tiles\\small_grey\\Gate1_Sml_Grey.h": {
+			"sdcard": false
+		},
+		"\\src\\Images\\tiles\\small_grey\\Gate1_Sml_Grey.png": {
+			"sdcard": false
+		},
+		"\\src\\Images\\tiles\\small_grey\\Gate2_Sml_Grey.h": {
+			"sdcard": false
+		},
+		"\\src\\Images\\tiles\\small_grey\\Gate2_Sml_Grey.png": {
+			"sdcard": false
+		},
+		"\\src\\Images\\tiles\\small_grey\\Grass_Sml_Grey.h": {
+			"sdcard": false
+		},
+		"\\src\\Images\\tiles\\small_grey\\Grass_Sml_Grey.png": {
+			"sdcard": false
+		},
+		"\\src\\Images\\tiles\\small_grey\\Leve1_Sml_Grey.h": {
+			"sdcard": false
+		},
+		"\\src\\Images\\tiles\\small_grey\\Leve1_Sml_Grey.png": {
+			"sdcard": false
+		},
+		"\\src\\Images\\tiles\\small_grey\\Leve2_Sml_Grey.h": {
+			"sdcard": false
+		},
+		"\\src\\Images\\tiles\\small_grey\\Meta2_Sml_Grey.h": {
+			"sdcard": false
+		},
+		"\\src\\Images\\tiles\\small_grey\\Meta2_Sml_Grey.png": {
+			"sdcard": false
+		},
+		"\\src\\Images\\tiles\\small_grey\\Metal_Sml_Grey.h": {
+			"sdcard": false
+		},
+		"\\src\\Images\\tiles\\small_grey\\Metal_Sml_Grey.png": {
+			"sdcard": false
+		},
+		"\\src\\Images\\tiles\\small_grey\\Plat1_Sml_Grey.h": {
+			"sdcard": false
+		},
+		"\\src\\Images\\tiles\\small_grey\\Plat1_Sml_Grey.png": {
+			"sdcard": false
+		},
+		"\\src\\Images\\tiles\\small_grey\\Rocks_Sml_Grey.h": {
+			"sdcard": false
+		},
+		"\\src\\Images\\tiles\\small_grey\\Rocks_Sml_Grey.png": {
+			"sdcard": false
+		},
+		"\\src\\Images\\tiles\\small_grey\\Sand1_Sml_Grey.h": {
+			"sdcard": false
+		},
+		"\\src\\Images\\tiles\\small_grey\\Sand1_Sml_Grey.png": {
+			"sdcard": false
+		},
+		"\\src\\Images\\tiles\\small_grey\\Sign1_Sml_Grey.png": {
+			"sdcard": false
+		},
+		"\\src\\Images\\tiles\\small_grey\\SpikesDown_Sml_Grey.h": {
+			"sdcard": false
+		},
+		"\\src\\Images\\tiles\\small_grey\\Sign1_Sml_Grey.h": {
+			"sdcard": false
+		},
+		"\\src\\Images\\tiles\\small_grey\\SpikesUp_Sml_Grey.h": {
+			"sdcard": false
+		},
+		"\\src\\Images\\tiles\\small_grey\\SpikesDown_Sml_Grey.png": {
+			"sdcard": false
+		},
+		"\\src\\Images\\tiles\\small_grey\\SpikesUp_Sml_Grey.png": {
+			"sdcard": false
+		},
+		"\\src\\Images\\tiles\\small_grey\\Water_Sml_Grey.h": {
+			"sdcard": false
+		},
+		"\\src\\Images\\tiles\\small_grey\\Tiles.h": {
+			"sdcard": false
+		},
+		"\\src\\Images\\tiles\\small_grey\\Water_Sml_Grey.png": {
+			"sdcard": false
+		},
+		"\\music.zip": {
+			"sdcard": false
+		},
+		"\\music.zip~RF373f4c9.TMP": {
+			"sdcard": false
+		},
+		"\\music.zip~RF37eb0f4.TMP": {
+			"sdcard": false
 		}
 	},
 	"BUILDFlags": {

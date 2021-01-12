@@ -34,7 +34,7 @@ struct Level {
         uint8_t _levelGateLeft;
         uint8_t _levelGateRight;
         uint16_t _fuelMax = 0;
-        uint16_t _internalGateInterval = 0;                         // Period of time internal gate is open.
+        uint16_t _internalGateInterval = 150;                         // Period of time internal gate is open.
         uint16_t _internalGateCounter = 0;                            // Gate open countdown.
         GateMode _internalGateMode = GateMode::Closed;
 
@@ -119,7 +119,7 @@ struct Level {
         void setFaresRequired(uint8_t val)            { _faresRequired = val; }
         void setGateInterval(uint16_t val)            { _internalGateInterval = val; }
 
-        void setLevelData(uint8_t xPos, uint8_t yPos, uint8_t val) { 
+        void setLevelData(uint16_t xPos, uint16_t yPos, uint8_t val) { 
 
             uint16_t x = (yPos * _widthInTiles) + xPos;
 
@@ -534,7 +534,7 @@ struct Level {
             this->_numberOfPositions = 0;
             this->_levelGateLeft = 0;
             this->_levelGateRight = 0;
-            this->_internalGateInterval = 0;
+            this->_internalGateInterval = 150;
             this->xOffset = 0;
             this->yOffset = 0;
 
