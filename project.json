@@ -14677,6 +14677,15 @@
 		},
 		"\\music.zip~RF37eb0f4.TMP": {
 			"sdcard": false
+		},
+		"\\music_orig\\audio_3.wav": {
+			"sdcard": false
+		},
+		"\\music_orig\\TMTGM.raw": {
+			"sdcard": false
+		},
+		"\\src\\Images\\tiles\\small_grey\\Leve2_Sml_Grey.png": {
+			"sdcard": false
 		}
 	},
 	"BUILDFlags": {

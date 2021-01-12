@@ -66,7 +66,8 @@ void Game::handleInput(Player &player) {
 
     if (player.getPickingUpCustomer()) return;
 
-    if (state != GameState::PlayGame_FlashingCar && (PC::buttons.pressed(BTN_B) || PC::buttons.repeat(BTN_B, 1)) && player.getFuel() != 0) {
+//    if (state != GameState::PlayGame_FlashingCar && (PC::buttons.pressed(BTN_B) || PC::buttons.repeat(BTN_B, 1)) && player.getFuel() != 0) {
+    if (state != GameState::PlayGame_FlashingCar && PC::buttons.pressed(BTN_B) && player.getFuel() != 0) {
 
         player.setLandingGearDown(!player.isLandingGearDown());
 

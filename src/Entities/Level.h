@@ -135,39 +135,16 @@ struct Level {
         uint8_t getStartingPosition(uint8_t idx) { 
             return _startingPositions[idx]; 
         }
+
         uint8_t getEndingPosition(uint8_t idx) { 
             return _endingPositions[idx]; 
         }
 
-
-        // ----------------------------------------------------------------------------------------------------------
-        //    Get the level name from PROGMEM ..
-        // 
-        // const char * getLevelName() {
-
-        //     //return reinterpret_cast<const char *>(pgm_read_ptr(&levelNames[index]));
-        //     return _levelName;
-            
-        // }
-
         char * getLevelName() {
 
-            //return reinterpret_cast<const char *>(pgm_read_ptr(&levelNames[index]));
             return _levelName;
             
         }
-
-        // // ----------------------------------------------------------------------------------------------------------
-        // //    Get the level name from PROGMEM ..
-        // // 
-        // const char * getLevelName) {
-
-        //     const uint8_t levelNumber = level.getLevelNumber() - 1;
-        //     //return reinterpret_cast<const __FlashStringHelper*>(getLevelName(levelNumber));
-        //     return levelNames[levelNumber];
-
-        // }
-
 
         Fuel * getFuel(uint8_t xTile, uint8_t yTile) {
 
