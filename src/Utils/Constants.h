@@ -1,6 +1,6 @@
 #pragma once
 
-#define SOUNDS
+#define _SOUNDS
 #define _DEBUG
 #define _INC_LEVEL_DETAILS
 
@@ -101,9 +101,9 @@ constexpr uint8_t CUSTOMER_PICKUP_RANGE        = 16;
 constexpr uint8_t GOTO_COUNTER_MAX             = 120;
 constexpr uint8_t OUCH_COUNTER_MAX             = 120;
 
-constexpr uint8_t GATE_TILES_MAX               = 20;
+constexpr uint8_t GATE_TILES_MAX               = 200;
 
-constexpr uint8_t FUEL_TILES_MAX               = 10;
+constexpr uint8_t FUEL_TILES_MAX               = 30;
 constexpr uint8_t FUEL_BURN_RATE_MIN           = 24;        // Bigger numbers burn slower ..
 constexpr uint8_t FUEL_BURN_RATE_DIV           = 64;        // When divided by yDelta gives burn rate ..
 constexpr uint8_t FUEL_MIN                     = 40;
@@ -118,6 +118,8 @@ enum class DesignerError : uint8_t {
   MultipleGates,
   VerticalGate_NoLever,
   Lever_NoVerticalGate,
+  TooManyInternalGates,
+  TooManyFuelStops,
   CustomerStartingPos,
 
 };

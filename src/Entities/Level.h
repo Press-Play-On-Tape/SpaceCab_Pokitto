@@ -38,41 +38,8 @@ struct Level {
         uint16_t _internalGateCounter = 0;                            // Gate open countdown.
         GateMode _internalGateMode = GateMode::Closed;
 
-        Fuel _fuel0;
-        Fuel _fuel1;
-        Fuel _fuel2;
-        Fuel _fuel3;
-        Fuel _fuel4;
-        Fuel _fuel5;
-        Fuel _fuel6;
-        Fuel _fuel7;
-        Fuel _fuel8;
-        Fuel _fuel9;
-
-        Gate _gate0;
-        Gate _gate1;
-        Gate _gate2;
-        Gate _gate3;
-        Gate _gate4;
-        Gate _gate5;
-        Gate _gate6;
-        Gate _gate7;
-        Gate _gate8;
-        Gate _gate9;
-        Gate _gate10;
-        Gate _gate11;
-        Gate _gate12;
-        Gate _gate13;
-        Gate _gate14;
-        Gate _gate15;
-        Gate _gate16;
-        Gate _gate17;
-        Gate _gate18;
-        Gate _gate19;
-
-        Fuel *_fuels[FUEL_TILES_MAX] = { &_fuel0, &_fuel1, &_fuel2, &_fuel3, &_fuel4, &_fuel5, &_fuel6, &_fuel7, &_fuel8, &_fuel9 };
-        Gate *_gates[GATE_TILES_MAX] = { &_gate0, &_gate1, &_gate2, &_gate3, &_gate4, &_gate5, &_gate6, &_gate7, &_gate8, &_gate9, &_gate10, &_gate11, &_gate12, &_gate13, &_gate14, &_gate15, &_gate16, &_gate17, &_gate18, &_gate19 };
-
+        Fuel _fuels[FUEL_TILES_MAX];
+        Gate _gates[GATE_TILES_MAX];
 
     public:
 
@@ -80,7 +47,7 @@ struct Level {
             
             this->_levelName[32] = 0;
             for (uint8_t x = 0 ; x < GATE_TILES_MAX; x++) {
-                _gates[x]->setActive(false);
+                _gates[x].setActive(false);
             }
 
         };
@@ -102,7 +69,7 @@ struct Level {
         uint16_t getGateInterval()                    const { return _internalGateInterval; }
         uint8_t *getLevelData()                       { return this->_levelData; }
 
-        Fuel * getFuel(uint8_t idx)                   const { return _fuels[idx]; }
+        Fuel &getFuel(uint8_t idx)                    { return _fuels[idx]; }
 
 
         void setPlayerOffsetX(uint16_t val)           { this->_playerOffsetX = val; }
@@ -114,7 +81,7 @@ struct Level {
         void setHeightInTiles(uint16_t val)           { _heightInTiles = val; _height = val * TILE_SIZE; }
         void setWidthInTiles(uint16_t val)            { _widthInTiles = val; _width = val * TILE_SIZE; }
 
-        void setFuel(uint8_t idx, Fuel * fuel)        { _fuels[idx] = fuel; }
+        void setFuel(uint8_t idx, Fuel &fuel)         { _fuels[idx] = fuel; }
         void setFuelMax(uint16_t val)                 { _fuelMax = val; }
         void setFaresRequired(uint8_t val)            { _faresRequired = val; }
         void setGateInterval(uint16_t val)            { _internalGateInterval = val; }
@@ -146,19 +113,19 @@ struct Level {
             
         }
 
-        Fuel * getFuel(uint8_t xTile, uint8_t yTile) {
+        Fuel & getFuel(uint8_t xTile, uint8_t yTile) {
 
             for (uint8_t i = 0; i < FUEL_TILES_MAX; i++) {
 
-                Fuel *fuel = _fuels[i];
+                Fuel &fuel = _fuels[i];
 
-                if (fuel->getXTile() == xTile && fuel->getYTile() == yTile) {
+                if (fuel.getXTile() == xTile && fuel.getYTile() == yTile) {
                     return fuel;
                 }
 
             }
 
-            return nullptr;
+            return _fuels[0];
 
         }
 
@@ -217,15 +184,15 @@ struct Level {
 
             for (uint8_t i = 0; i < GATE_TILES_MAX; i++) {
 
-                Gate *gate = _gates[i];
+                Gate &gate = _gates[i];
 
-                if (gate->isActive()) {
+                if (gate.isActive()) {
 
-                    if (gate->getXTile() % 2 == 0) {
-                        _levelData[((gate->getYTile() * _widthInTiles) + gate->getXTile()) / 2] = (_levelData[((gate->getYTile() * _widthInTiles) + gate->getXTile()) / 2] & 0x0F) | (mode == GateMode::Closed ? GATE1 << 4 : EMPTY);
+                    if (gate.getXTile() % 2 == 0) {
+                        _levelData[((gate.getYTile() * _widthInTiles) + gate.getXTile()) / 2] = (_levelData[((gate.getYTile() * _widthInTiles) + gate.getXTile()) / 2] & 0x0F) | (mode == GateMode::Closed ? GATE1 << 4 : EMPTY);
                     }
                     else {
-                        _levelData[((gate->getYTile() * _widthInTiles) + gate->getXTile()) / 2] = (_levelData[((gate->getYTile() * _widthInTiles) + gate->getXTile()) / 2] & 0xF0) | (mode == GateMode::Closed ? GATE1 : EMPTY);
+                        _levelData[((gate.getYTile() * _widthInTiles) + gate.getXTile()) / 2] = (_levelData[((gate.getYTile() * _widthInTiles) + gate.getXTile()) / 2] & 0xF0) | (mode == GateMode::Closed ? GATE1 : EMPTY);
                     }
 
                 }
@@ -268,10 +235,10 @@ struct Level {
 
             for (uint8_t i = 0; i < FUEL_TILES_MAX; i++) {
 
-                Fuel *fuel = _fuels[i];
-                fuel->setXTile(0);
-                fuel->setYTile(0);
-                fuel->setFuelLeft(0);
+                Fuel &fuel = _fuels[i];
+                fuel.setXTile(0);
+                fuel.setYTile(0);
+                fuel.setFuelLeft(0);
 
             }
 
@@ -280,8 +247,8 @@ struct Level {
 
             for (uint8_t i = 0; i < GATE_TILES_MAX; i++) {
 
-                Gate *gate = _gates[i];
-                gate->setActive(false);
+                Gate &gate = _gates[i];
+                gate.setActive(false);
 
             }
 
@@ -472,10 +439,10 @@ struct Level {
 
             for (uint8_t i = 0; i < FUEL_TILES_MAX; i++) {
 
-                Fuel *fuel = _fuels[i];
-                fuel->setXTile(0);
-                fuel->setYTile(0);
-                fuel->setFuelLeft(0);
+                Fuel &fuel = _fuels[i];
+                fuel.setXTile(0);
+                fuel.setYTile(0);
+                fuel.setFuelLeft(0);
 
             }
 
@@ -484,8 +451,8 @@ struct Level {
 
             for (uint8_t i = 0; i < GATE_TILES_MAX; i++) {
 
-                Gate *gate = _gates[i];
-                gate->setActive(false);
+                Gate &gate = _gates[i];
+                gate.setActive(false);
 
             }
 
@@ -519,19 +486,19 @@ struct Level {
 
         void updateFuelDetails(uint8_t x, uint8_t y, uint8_t index) {
 
-            Fuel *fuel = _fuels[index];
-            fuel->setXTile(x);
-            fuel->setYTile(y);
-            fuel->setFuelLeft(random(FUEL_MIN, FUEL_MAX));
+            Fuel &fuel = _fuels[index];
+            fuel.setXTile(x);
+            fuel.setYTile(y);
+            fuel.setFuelLeft(random(FUEL_MIN, FUEL_MAX));
  
         }
 
         void updateGateDetails(uint8_t x, uint8_t y, uint8_t index) {
 
-            Gate *gate = _gates[index];
-            gate->setXTile(x);
-            gate->setYTile(y);
-            gate->setActive(true);
+            Gate &gate = _gates[index];
+            gate.setXTile(x);
+            gate.setYTile(y);
+            gate.setActive(true);
  
         }
 

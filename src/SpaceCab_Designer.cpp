@@ -942,6 +942,40 @@ bool Game::designer_CheckErrors() {
 
     }
 
+    if (gateFound > GATE_TILES_MAX) {
+
+        this->designerScreenVariables.mode = DesignerScreenMode::ShowError;
+        this->designerScreenVariables.error = DesignerError::TooManyInternalGates;
+        return true;
+
+    }
+
+
+    // How many fuel stops ?
+
+    uint8_t fuelStops = 0;
+
+    for (uint8_t y = 0; y < this->level.getHeightInTiles(); y++) {
+
+        for (uint8_t x = 0; x < this->level.getWidthInTiles(); x++) {
+
+            if (this->level.getTile(x, y) == FUEL1) {
+                
+                fuelStops++;
+
+            }        
+
+        }
+
+    }
+
+    if (fuelStops > FUEL_TILES_MAX) {
+
+        this->designerScreenVariables.mode = DesignerScreenMode::ShowError;
+        this->designerScreenVariables.error = DesignerError::TooManyFuelStops;
+        return true;
+
+    }
 
 
     // Customer starting positions?
@@ -1033,6 +1067,20 @@ void Game::designer_ShowError() {
             PD::print("A lever exists");
             PD::setCursor(ERROR_TEXT_LEFT, ERROR_TEXT_TOP_2);
             PD::print("without a gate.");
+            break;
+
+        case DesignerError::TooManyInternalGates:
+            PD::setCursor(ERROR_TEXT_LEFT, ERROR_TEXT_TOP_1);
+            PD::print("The no. of internal");
+            PD::setCursor(ERROR_TEXT_LEFT, ERROR_TEXT_TOP_2);
+            PD::print("gates exceeds 200.");
+            break;
+
+        case DesignerError::TooManyFuelStops:
+            PD::setCursor(ERROR_TEXT_LEFT, ERROR_TEXT_TOP_1);
+            PD::print("The number of fuel");
+            PD::setCursor(ERROR_TEXT_LEFT, ERROR_TEXT_TOP_2);
+            PD::print("stops exceeds 50.");
             break;
 
         case DesignerError::CustomerStartingPos:

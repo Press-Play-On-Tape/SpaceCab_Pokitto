@@ -14686,6 +14686,24 @@
 		},
 		"\\src\\Images\\tiles\\small_grey\\Leve2_Sml_Grey.png": {
 			"sdcard": false
+		},
+		"/music/SPCAB_FILES/Maze.raw": {
+			"sdcard": false
+		},
+		"/music/SPCAB_FILES/SPCAB012.raw": {
+			"sdcard": false
+		},
+		"/distributable/Screenshot_01 copy.h": {
+			"sdcard": false
+		},
+		"/distributable/Blurb.txt": {
+			"sdcard": false
+		},
+		"/SpaceCab(1).pop": {
+			"sdcard": false
+		},
+		"/SpacCab_V1.0.2.zip": {
+			"sdcard": false
 		}
 	},
 	"BUILDFlags": {

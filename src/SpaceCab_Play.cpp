@@ -337,8 +337,8 @@ void Game::checkCollisionWithLevelElements_TestElement(Level &level, Player &pla
             //sound if (fuelSound[0] == 0) { fuelSound[0] = 200; }
 
             if (PC::frameCount % 4 == 0) {
-                Fuel *fuel = level.getFuel(x, y);
-                if (fuel->getFuelLeft() > 0 && player.getFuel() < level.getFuelMax()) {
+                Fuel &fuel = level.getFuel(x, y);
+                if (fuel.getFuelLeft() > 0 && player.getFuel() < level.getFuelMax()) {
 
                     auto note = Audio::Note(player.getFuel())
                     .wave(WSQUARE)
@@ -350,7 +350,7 @@ void Game::checkCollisionWithLevelElements_TestElement(Level &level, Player &pla
                     //sound fuelSound[0] = fuelSound[0] + 10;
                     // sound.tonesInRAM(fuelSound);
                     player.incFuel();
-                    fuel->decFuel();
+                    fuel.decFuel();
                 }
                 else {
                     //sound fuelSound[0] = 0;

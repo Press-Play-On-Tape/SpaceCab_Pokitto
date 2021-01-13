@@ -146,8 +146,8 @@ void Game::drawLevel(Level &level) {
 
                 case FUEL1:
                     {
-                        Fuel *fuel = level.getFuel(x, y);
-                        PD::drawBitmap(bitmapX, bitmapY, Images::Fuels[fuel->getFuelLeftPerCent()]);
+                        Fuel &fuel = level.getFuel(x, y);
+                        PD::drawBitmap(bitmapX, bitmapY, Images::Fuels[fuel.getFuelLeftPerCent()]);
                     }
                     break;
 
