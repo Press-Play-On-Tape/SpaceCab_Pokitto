@@ -14704,6 +14704,12 @@
 		},
 		"/SpacCab_V1.0.2.zip": {
 			"sdcard": false
+		},
+		"/SpaceCab(2).pop": {
+			"sdcard": false
+		},
+		"/SpaceCab_V1.0.2.zip": {
+			"sdcard": false
 		}
 	},
 	"BUILDFlags": {
