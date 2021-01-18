@@ -84,7 +84,7 @@ function handleFile(e) {
     let output = document.getElementById('output');
     var width, height, count;
     var i = 32;
-    var html = "Name: " + String.fromCharCode.apply(null, e.target.result.slice(0, 32)) + "<br/>\n";
+    var html = "Name: " + String.fromCharCode.apply(null, new Uint8Array(e.target.result.slice(0, 32))) + "<br/>\n";
     var sign = 0;
     var levelOffsetX, levelOffsetY;
     var playerOffsetX, playerOffsetY;
