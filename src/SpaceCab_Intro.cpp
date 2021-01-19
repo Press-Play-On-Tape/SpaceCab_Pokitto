@@ -82,13 +82,15 @@ void Game::titleScreen(Level &level, Player &player, Customer &customer) {
 
             for (uint8_t y = 47; y > 36; y--) {
                 
-                auto note = Audio::Note((y * 2) - 40)
-                                    .wave(WSQUARE)
-                                    .duration(50)
-                                    .volume(75);
-                
-                
-                note.play(2);  
+                #ifdef SOUNDS
+                    auto note = Audio::Note((y * 2) - 40)
+                                        .wave(WSQUARE)
+                                        .duration(50)
+                                        .volume(75);
+                    
+                    
+                    note.play(2);  
+                #endif
 
                 PD::setColor(0);
                 PD::drawFastHLine(5 + this->level.getXOffsetDisplay(), y, 21);
@@ -122,14 +124,16 @@ void Game::titleScreen(Level &level, Player &player, Customer &customer) {
             // this->playSoundEffect(4);
             
             for (uint8_t y = 47; y > 36; y--) {
-                
-                auto note = Audio::Note((y * 2) - 40)
-                                    .wave(WSQUARE)
-                                    .duration(50)
-                                    .volume(75);
-                
-                
-                note.play(2);  
+
+                #ifdef SOUNDS                
+                    auto note = Audio::Note((y * 2) - 40)
+                                        .wave(WSQUARE)
+                                        .duration(50)
+                                        .volume(75);
+                    
+                    
+                    note.play(2);  
+                #endif
 
                 PD::setColor(0);
                 PD::drawFastHLine(230 + this->level.getXOffsetDisplay(), y, 21);

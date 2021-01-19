@@ -422,6 +422,8 @@ void Game::customerDisplay(Level &level, Player &player, Customer &customer, int
         uint16_t customerY = 0;
         uint8_t arrowX = 0;
         uint8_t arrowY = 0;
+        int8_t arrowX_TextOffset = 0;
+        int8_t arrowY_TextOffset = 0;
         uint8_t playerX = player.getXDisplay();
         uint8_t playerY = player.getYDisplay();
 
@@ -462,28 +464,37 @@ void Game::customerDisplay(Level &level, Player &player, Customer &customer, int
 
             if (dX < -playerX) {
 
-                if (dY < -playerY)                                  { direction = Direction::UpLeft; arrowX = 0; arrowY = 0; }
-                if (dY >= -playerY && dY < -playerY + 56)           { direction = Direction::Left; arrowX = 0; arrowY = playerY + dY - 4; }
-                if (dY >= -playerY + 56)                            { direction = Direction::DownLeft; arrowX = 0; arrowY = SCREEN_HEIGHT - 16; }
+                if (dY < -playerY)                                  { direction = Direction::UpLeft; arrowX = 0; arrowY = 0; arrowX_TextOffset = 6, arrowY_TextOffset = 5; }
+                if (dY >= -playerY && dY < -playerY + 47)           { direction = Direction::Left; arrowX = 0; arrowY = playerY + dY - 4; arrowX_TextOffset = 8, arrowY_TextOffset = 2; }
+                if (dY >= -playerY + 47)                            { direction = Direction::DownLeft; arrowX = 0; arrowY = SCREEN_HEIGHT - 20; arrowX_TextOffset = 6, arrowY_TextOffset = 2; }
 
             }
 
             if (dX >= -playerX && dX < -playerX + SCREEN_WIDTH) {
 
-                if (dY < 0)                                         { direction = Direction::Up; arrowX = playerX + dX; arrowY = 0; }
-                if (dY > 0)                                         { direction = Direction::Down; arrowX = playerX + dX; arrowY = SCREEN_HEIGHT - 16; }
+                if (dY < 0)                                         { direction = Direction::Up; arrowX = playerX + dX; arrowY = 0; arrowX_TextOffset = 3, arrowY_TextOffset = 7; }
+                if (dY > 0)                                         { direction = Direction::Down; arrowX = playerX + dX; arrowY = SCREEN_HEIGHT - 22; arrowX_TextOffset = 3, arrowY_TextOffset = 2; }
 
             }
 
             if (dX >= -playerX + SCREEN_WIDTH) {
 
-                if (dY < -playerY)                                  { direction = Direction::UpRight; arrowX = SCREEN_WIDTH - 8; arrowY = 0; }
-                if (dY >= -playerY && dY < -playerY + 56)           { direction = Direction::Right; arrowX = SCREEN_WIDTH - 8; arrowY = playerY + dY - 4; }
-                if (dY >= -playerY + 56)                            { direction = Direction::DownRight; arrowX = SCREEN_WIDTH - 8; arrowY = SCREEN_HEIGHT - 16; }
+                if (dY < -playerY)                                  { direction = Direction::UpRight; arrowX = SCREEN_WIDTH - 12; arrowY = 0; arrowX_TextOffset = 3, arrowY_TextOffset = 5; }
+                if (dY >= -playerY && dY < -playerY + 47)           { direction = Direction::Right; arrowX = SCREEN_WIDTH - 14; arrowY = playerY + dY - 4; arrowX_TextOffset = 3, arrowY_TextOffset = 2; }
+                if (dY >= -playerY + 47)                            { direction = Direction::DownRight; arrowX = SCREEN_WIDTH - 12; arrowY = SCREEN_HEIGHT - 20; arrowX_TextOffset = 3, arrowY_TextOffset = 2; }
 
             }
 
             PD::drawBitmap(arrowX, arrowY, Images::ArrowImgs[static_cast<uint8_t>(direction)]);
+            PD::setCursor(arrowX + arrowX_TextOffset, arrowY + arrowY_TextOffset);
+            PD::setColor(9, 5);
+
+            if (player.isCarryingCustomer()) {
+                PD::print(customer.getDestinationPosition() + 1, 10);
+            }
+            else {
+                PD::print(customer.getStartingPosition() + 1, 10);
+            }
 
         }
 

@@ -14710,6 +14710,27 @@
 		},
 		"/SpaceCab_V1.0.2.zip": {
 			"sdcard": false
+		},
+		"/src/Images/arrows/ArrowD copy.png": {
+			"sdcard": false
+		},
+		"/src/Images/arrows/ArrowDR copy.png": {
+			"sdcard": false
+		},
+		"/src/Images/arrows/ArrowL copy.png": {
+			"sdcard": false
+		},
+		"/src/Images/arrows/ArrowDL 10.54.37 pm.png": {
+			"sdcard": false
+		},
+		"/src/Images/arrows/ArrowDL copy.png": {
+			"sdcard": false
+		},
+		"/src/Images/arrows/ArrowUL2.png": {
+			"sdcard": false
+		},
+		"/src/Images/arrows/ArrowUL copy.png": {
+			"sdcard": false
 		}
 	},
 	"BUILDFlags": {

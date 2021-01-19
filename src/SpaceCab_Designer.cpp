@@ -191,14 +191,14 @@ void Game::designer() {
                         break;
 
                     case 4: // Export
-                        #ifdef SOUND
-
+                        #ifdef SOUNDS
+                        {
                             auto note = Audio::Note(50)
                                             .wave(WSQUARE)
                                             .duration(50)
                                             .volume(75);
                             note.play();           
-
+                        }
                         #endif
 
                         this->gamePlayVariables.levelNumber = 1 + this->designerScreenVariables.entryCursor;
@@ -466,7 +466,7 @@ void Game::designer() {
 
                 }
                 
-                if ((PC::buttons.pressed(BTN_DOWN) || PC::buttons.repeat(BTN_DOWN, REPEAT_VAL)) && this->level.getGateInterval() > 200) {
+                if ((PC::buttons.pressed(BTN_DOWN) || PC::buttons.repeat(BTN_DOWN, REPEAT_VAL)) && this->level.getGateInterval() > 50) {
 
                     this->level.setGateInterval(this->level.getGateInterval() - 10);
                     

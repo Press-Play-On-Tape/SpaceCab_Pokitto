@@ -340,15 +340,14 @@ void Game::checkCollisionWithLevelElements_TestElement(Level &level, Player &pla
                 Fuel &fuel = level.getFuel(x, y);
                 if (fuel.getFuelLeft() > 0 && player.getFuel() < level.getFuelMax()) {
 
-                    auto note = Audio::Note(player.getFuel())
-                    .wave(WSQUARE)
-                    .duration(50)
-                    .volume(75);
+                    #ifdef SOUNDS
+                        auto note = Audio::Note(player.getFuel())
+                            .wave(WSQUARE)
+                            .duration(50)
+                            .volume(75);
+                        note.play(2);  
+                    #endif
 
-
-                    note.play(2);  
-                    //sound fuelSound[0] = fuelSound[0] + 10;
-                    // sound.tonesInRAM(fuelSound);
                     player.incFuel();
                     fuel.decFuel();
                 }
@@ -481,7 +480,7 @@ void Game::inGame(Level &level, Player &player, Customer &customer) {
 
     // Thruster noise ..
 
-    #ifdef SOUND
+    #ifdef SOUNDS
 
         if (player.getYDelta() < 0) {
 
