@@ -404,8 +404,6 @@ function isGroundTile(x, y)
   var tile = getTile(x, y);
   if (tile == TILE_BRICK)
     return true;
-  else if (tile == TILE_GRASS)
-    return true;
   else if (tile == TILE_PLAT1)
     return true;
   else if (tile == TILE_SHADE)
@@ -450,21 +448,36 @@ function checkErrors()
   
   //Check if there is 1 and only 1 exit gate (continuous line of gate tiles at top of level)
   count = 0;
+  var solidTop = true;
+  var solidBottom = true;
   for (var x = 0; x < levelWidth; ++x)
   {
     if (getTile(x, 0) == TILE_GATE1 && getTile(x - 1, 0) != TILE_GATE1)
       ++count;
+    if (!isGroundTile(x, 0) && getTile(x, 0) != TILE_GATE1)
+      solidTop = false;
+    if (!isGroundTile(x, levelHeight - 1))
+      solidBottom = false;
   }
   if (count == 0)
     errors += "Missing exit gate<br/>";
   else if (count > 1)
     errors += "Multiple exit gates<br/>";
+  if (!solidTop)
+    errors += "Top row must be solid tiles<br/>";
+  if (!solidBottom)
+    errors += "Bottom row must be solid tiles<br/>";
+  var emptyPlayer = true;
+  if (!isEmpty(playerX, playerY) || !isEmpty(playerX + 1, playerY) || !isEmpty(playerX, playerY + 1) || !isEmpty(playerX + 1, playerY + 1))
+    errors += "Player must be in empty space<br/>";
   
   //Check internal gates and levers (error if one but not the other)
   if (hasInternalGate && !hasLever)
     errors += "Internal gate without any levers<br/>";
   else if (!hasInternalGate && hasLever)
     errors += "Levers with no internal gates<br/>";
+  
+  //Report errors
   if (errors == "")
   {
     var errorTitle = document.getElementById("errorTitle");
