@@ -1,0 +1,95 @@
+body
+{
+  overflow: hidden;
+  background-color: black;
+  color: green;
+}
+
+#container
+{
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+  justify-content: center;
+}
+
+#content
+{
+  border: 3px inset green;
+  text-align: left;
+  padding: 8px;
+  background-color: black;
+}
+
+#conent.highlight
+{
+  background-color: green;
+}
+
+input
+{
+  font-family: monospace;
+  font-size: 12pt;
+  border: 2px inset grey;
+  margin: 4px 0px;
+}
+
+.button
+{
+  border: 1px solid green;
+  background-color: black;
+  padding: 4px;
+  color: green;
+  float: right;
+  display: inline-block;
+  cursor: pointer;
+  width: 100%;
+  text-align: center;
+}
+
+.button:hover
+{
+  background-color: darkgreen;
+  color: black;
+}
+
+.button:active
+{
+  background-color: green;
+  color: black;
+}
+
+a
+{
+  border: 1px solid green;
+  padding: 4px;
+  background-color: black;
+  text-decoration: none;
+  color: green;
+  display: block;
+  white-space: nowrap;
+}
+
+a:hover
+{
+  background-color: darkgreen;
+  color: black;
+}
+
+a.active, a:active
+{
+  background-color: green;
+  color: black;
+}
+
+a > div
+{
+  border: 0px;
+  width: 8px;
+  height: 8px;
+  background-image: url('tiles.png');
+  display: inline-block;
+  margin: 0px 8px 0px 0px;
+}
