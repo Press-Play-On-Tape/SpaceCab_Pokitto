@@ -1,0 +1,74 @@
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="editor.css"></link>
+  </head>
+  <body onload="updateView()">
+    <center>
+      <div id="container">
+        <img id="tiles" src="tiles.png" width="1px" height="1px" style="visibility: hidden;"/>
+        <div id="content">
+          <table id="logo" style="width: 100%;">
+            <tr>
+              <td style="text-align: left"><img src="logo.png"/></td>
+              <td style="color: red; font-weight: bold; vertical-align: top;">
+                <center id="errorTitle" style="font-size: 18pt;">ERRORS</center>
+                <span id="errors">
+                  Missing Exit Gate<br/>
+                  Minimum of 2 signs are needed<br/>
+                </span>
+              </td>
+              <td style="text-align: right"><img src="ppot.gif"/></td>
+            </tr>
+          </table>
+          <form style="padding: 0px; margin: 0px;">
+            <div style="display: inline-block; float: right;">
+              <label class="button" for="loadButton">Load Level</label>
+              <input type="file" id="loadButton" style="display: none;" accept="*.raw" onchange="loadLevel(event)"/><br/>
+              <label class="button" for="saveButton">Save Level</label>
+              <input type="button" id="saveButton" style="display: none;" onclick="saveLevel()"/>
+            </div>
+            <label for="levelName">Name: </label>
+            <input type="text" id="levelName" name="levelName" maxlength="32" style="width: 34ch;"></input><br/>
+            <label for="levelWidth">Size: </label>
+            <input type="number" id="levelWidth" name="levelWidth" min="16" max="60" step="2" value="16" onchange="changeWidth(this.value)"></input>
+            <label for="levelHeight">x</label>
+            <input type="number" id="levelHeight" name="levelHeight" min="11" max="60" step="1" value="11" onchange="changeHeight(this.value)"></input><br/>
+            <label for="levelFuel">Fuel: </label>
+            <input type="number" id="levelFuel" name="levelFuel" min="100" max="900" step="10" value="200"></input>
+            <label for="levelFares">Fares Required: </label>
+            <input type="number" id="levelFares" name="levelFares" min="0" max="20" step="1" value="1"></input>
+            <label for="levelGates">Gates Interval: </label>
+            <input type="number" id="levelGates" name="levelGates" min="50" max="800" step="10" value="150"></input>
+            <a id="toggleGrid" href="javascript:toggleGrid();" style="float: right;">Toggle Grid</a>
+          </form>
+          <table id="editor" style="border: 0px;">
+            <tr>
+              <td style="vertical-align: middle; text-align: center; background-color: #1d2b53; width: 500px; height: 500px;">
+                <canvas id="view" width="128" height="88"/>
+              </td>
+              <td style="vertical-align: top;" class="toolbox">
+                <a id="tile0" class="active" href="javascript:setActiveTile(0);"><div style="background-position: 0px 0px;"></div>Empty</a>
+                <a id="tile1" href="javascript:setActiveTile(1);"><div style="background-position: -8px 0px;"></div>Platform</a>
+                <a id="tile2" href="javascript:setActiveTile(2);"><div style="background-position: -16px 0px;"></div>Edge</a>
+                <a id="tile3" href="javascript:setActiveTile(3);"><div style="background-position: -24px 0px;"></div>Water</a>
+                <a id="tile4" href="javascript:setActiveTile(4);"><div style="background-position: -32px 0px;"></div>Sign</a>
+                <a id="tile5" href="javascript:setActiveTile(5);"><div style="background-position: -40px 0px;"></div>Gate</a>
+                <a id="tile6" href="javascript:setActiveTile(6);"><div style="background-position: -48px 0px;"></div>Metal</a>
+                <a id="tile7" href="javascript:setActiveTile(7);"><div style="background-position: -56px 0px;"></div>Shade</a>
+                <a id="tile8" href="javascript:setActiveTile(8);"><div style="background-position: -64px 0px;"></div>Rocks</a>
+                <a id="tile9" href="javascript:setActiveTile(9);"><div style="background-position: -72px 0px;"></div>Brick</a>
+                <a id="tile10" href="javascript:setActiveTile(10);"><div style="background-position: -80px 0px;"></div>Grass</a>
+                <a id="tile11" href="javascript:setActiveTile(11);"><div style="background-position: -88px 0px;"></div>Fuel</a>
+                <a id="tile12" href="javascript:setActiveTile(12);"><div style="background-position: -96px 0px;"></div>Sand</a>
+                <a id="tile13" href="javascript:setActiveTile(13);"><div style="background-position: -104px 0px;"></div>SpikeU</a>
+                <a id="tile14" href="javascript:setActiveTile(14);"><div style="background-position: -112px 0px;"></div>SpikeD</a>
+                <a id="tile15" href="javascript:setActiveTile(15);"><div style="background-position: -120px 0px;"></div>Lever</a>
+                <a id="tile16" href="javascript:setActiveTile(16);"><div style="background-position: -80px -8px; width: 17px; height: 11px;"></div>Player</a>
+              </td>
+            </tr>
+          </table>
+        </div>
+      </div>
+    <script src="editor.js"></script>
+  </body>
+</html>
