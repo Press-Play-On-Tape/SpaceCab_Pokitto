@@ -459,6 +459,7 @@ function checkErrors()
     if (!isGroundTile(x, levelHeight - 1))
       solidBottom = false;
   }
+  console.log("solid: " + solidTop + " " + solidBottom);
   if (count == 0)
     errors += "Missing exit gate<br/>";
   else if (count > 1)
@@ -468,7 +469,7 @@ function checkErrors()
   if (!solidBottom)
     errors += "Bottom row must be solid tiles<br/>";
   var emptyPlayer = true;
-  if (!isEmpty(playerX, playerY) || !isEmpty(playerX + 1, playerY) || !isEmpty(playerX, playerY + 1) || !isEmpty(playerX + 1, playerY + 1))
+  if (!isBlankTile(playerX, playerY) || !isBlankTile(playerX + 1, playerY) || !isBlankTile(playerX, playerY + 1) || !isBlankTile(playerX + 1, playerY + 1))
     errors += "Player must be in empty space<br/>";
   
   //Check internal gates and levers (error if one but not the other)
